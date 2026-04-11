@@ -1,243 +1,103 @@
-import GithubIcon from "@/components/icons/github-icon";
-import LinkedInIcon from "@/components/icons/linkedin-icon";
-import XIcon from "@/components/icons/x-icon";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-} from "@/components/ui/card";
-import Image from "next/image";
-import Link from "next/link";
-interface TeamProps {
-  imageUrl: string;
-  firstName: string;
-  lastName: string;
-  positions: string[];
-  socialNetworks: SocialNetworkProps[];
-}
-interface SocialNetworkProps {
-  name: string;
-  url: string;
-}
-export const TeamSection = () => {
-  const teamList: TeamProps[] = [
-    {
-      imageUrl: "https://i.pravatar.cc/250?img=58",
-      firstName: "Leo",
-      lastName: "Miranda",
-      positions: ["Vue Fronted Developer", "Creator Of This Website"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Elizabeth",
-      lastName: "Moore",
-      positions: ["UI/UX Designer"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "David",
-      lastName: "Diaz",
-      positions: ["Machine Learning Engineer", "TensorFlow Tinkerer"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Sarah",
-      lastName: "Robinson",
-      positions: ["Cloud Native Developer", " Kubernetes Orchestrator"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Michael",
-      lastName: "Holland",
-      positions: ["DevOps Engineer", "CI/CD Pipeline Mastermind"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Zoe",
-      lastName: "Garcia",
-      positions: ["JavaScript Evangelist", "Deno Champion"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Evan",
-      lastName: "James",
-      positions: ["Backend Developer"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Pam",
-      lastName: "Taylor",
-      positions: ["Fullstack Developer", "UX Researcher"],
-      socialNetworks: [
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-  ];
-  const socialIcon = (socialName: string) => {
-    switch (socialName) {
-      case "LinkedIn":
-        return <LinkedInIcon />;
-      case "Github":
-        return <GithubIcon />;
-      case "X":
-        return <XIcon />;
+import { ArrowRight } from "lucide-react";
+import { rankedPlatforms } from "@/data/ranked-platforms";
+import { platforms } from "@/lib/platforms";
+
+/* Map platform id → affiliate URL override (for platforms not in platforms.ts or needing a different link) */
+const URL_OVERRIDES: Record<string, string> = {
+  "aimour-ai": "https://t.crjmpy.com/389267/10314/0?aff_sub5=SF_006OG000004lmDN",
+};
+
+/* Map platform id → domain override for favicon (for IDs that don't match platforms.ts keys) */
+const DOMAIN_MAP: Record<string, string> = {
+  "aimour-ai": "aimour.ai",
+};
+
+const NAME_MAP: Record<string, string> = {
+  "aimour-ai": "Aimour.ai",
+};
+
+function buildShowcaseList() {
+  // Create a map of ranked platforms by slug for quick lookup
+  const rankedMap = new Map(rankedPlatforms.map(p => [p.meta.slug, p]));
+  
+  // Get ranked platforms in order, then add unranked platforms
+  const rankedIds = rankedPlatforms.map(p => p.meta.slug);
+  const unrankedIds = ["fantasygf", "spicychat-ai"];
+  const allPlatformIds = [...rankedIds, ...unrankedIds];
+
+  return allPlatformIds.map((id, i) => {
+    const ranked = rankedMap.get(id);
+    const plat = platforms[id];
+    const domain = DOMAIN_MAP[id] ?? plat?.domain ?? id.replace(/-/g, ".");
+    const name = ranked?.meta.name ?? NAME_MAP[id] ?? plat?.name ?? id;
+    const logo = plat?.logo;
+    const url = ranked?.meta.affiliateUrl ?? URL_OVERRIDES[id] ?? plat?.url ?? "#";
+
+    // Build a data-driven tag
+    let tag: string;
+    if (ranked) {
+      // Ranked in Value Index — show rank + score
+      tag = `#${ranked.rank} Value Index · ${ranked.valueIndex}/100`;
+    } else if (plat && plat.price) {
+      // Not ranked yet — show price
+      tag = `From ${plat.price}`;
+    } else {
+      tag = `${domain}`;
     }
-  };
 
+    return { id, name, tag, url, logo, domain, delay: i * 0.2 };
+  });
+}
+
+const platformList = buildShowcaseList();
+
+export const PlatformShowcase = () => {
   return (
-    <section id="team" className="container lg:w-[75%] py-24 sm:py-32">
-      <div className="text-center mb-8">
-        <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          Team
-        </h2>
+    <section id="platforms" className="container py-24 sm:py-32">
 
-        <h2 className="text-3xl md:text-4xl text-center font-bold">
-          The Company Dream Team
-        </h2>
+      <div className="text-center mb-12">
+        <h2 className="text-lg text-primary mb-2 tracking-wider font-mono">Tested Platforms</h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-mono mb-4">Ranked by the Math, Not Opinions</h2>
+        <p className="mx-auto max-w-xl text-muted-foreground font-mono">
+          Scores come from the Value Index — feature coverage × price efficiency, geometric mean.
+          No editorial picks, no sponsors, no bias.
+        </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        {teamList.map(
-          (
-            { imageUrl, firstName, lastName, positions, socialNetworks },
-            index
-          ) => (
-            <Card
-              key={index}
-              className="bg-muted/60 dark:bg-card flex flex-col h-full overflow-hidden group/hoverimg"
-            >
-              <CardHeader className="p-0 gap-0">
-                <div className="h-full overflow-hidden">
-                  <Image
-                    src={imageUrl}
-                    alt=""
-                    width={300}
-                    height={300}
-                    className="w-full aspect-square object-cover saturate-0 transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
-                  />
-                </div>
-                <CardTitle className="py-6 pb-4 px-6">
-                  {firstName}
-                  <span className="text-primary ml-2">{lastName}</span>
-                </CardTitle>
-              </CardHeader>
-              {positions.map((position, index) => (
-                <CardContent
-                  key={index}
-                  className={`pb-0 text-muted-foreground ${
-                    index === positions.length - 1 && "pb-6"
-                  }`}
-                >
-                  {position}
-                  {index < positions.length - 1 && <span>,</span>}
-                </CardContent>
-              ))}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-12 max-w-5xl mx-auto">
+        {platformList.map((p) => (
+          <a
+            key={p.id}
+            href={p.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center gap-4 text-center"
+          >
+            {/* Floating logo */}
+            <div className="relative">
+              <div className="absolute inset-0 scale-150 rounded-full bg-pink-300/15 blur-2xl group-hover:bg-pink-300/25 transition-all duration-500" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={p.logo ?? `https://www.google.com/s2/favicons?domain=${p.domain}&sz=128`}
+                alt={p.name}
+                className={`relative ${p.logo ? "size-28 md:size-32" : "size-16 md:size-24"} object-contain drop-shadow-xl vi-float`}
+                style={{ animationDelay: `${p.delay}s` }}
+              />
+            </div>
 
-              <CardFooter className="space-x-4 mt-auto">
-                {socialNetworks.map(({ name, url }, index) => (
-                  <Link
-                    key={index}
-                    href={url}
-                    target="_blank"
-                    className="hover:opacity-80 transition-all"
-                  >
-                    {socialIcon(name)}
-                  </Link>
-                ))}
-              </CardFooter>
-            </Card>
-          )
-        )}
+            {/* Name + data tag */}
+            <div>
+              <p className="text-sm font-bold font-mono text-foreground group-hover:text-pink-400 transition-colors">{p.name}</p>
+              <p className="text-[10px] font-mono text-muted-foreground/60 tracking-wider uppercase mt-0.5 tabular-nums">{p.tag}</p>
+            </div>
+
+            {/* CTA */}
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-pink-100 dark:bg-pink-500/10 border border-pink-200 dark:border-pink-500/20 px-4 py-1.5 text-xs font-bold font-mono text-pink-600 dark:text-pink-400 group-hover:bg-pink-200 dark:group-hover:bg-pink-500/20 group-hover:border-pink-300 dark:group-hover:border-pink-500/30 transition-all duration-200">
+              Try It
+              <ArrowRight className="size-3 group-hover:translate-x-0.5 transition-transform" />
+            </span>
+          </a>
+        ))}
       </div>
     </section>
   );

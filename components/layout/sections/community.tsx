@@ -1,4 +1,3 @@
-import DiscordIcon from "@/components/icons/discord-icon";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -7,35 +6,46 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export const CommunitySection = () => {
   return (
-    <section id="community" className="py-12 ">
+    <section id="cta" className="py-12 ">
       <hr className="border-secondary" />
       <div className="container py-20 sm:py-20">
         <div className="lg:w-[60%] mx-auto">
           <Card className="bg-background border-none shadow-none text-center flex flex-col items-center justify-center">
             <CardHeader>
-              <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
-                <DiscordIcon />
+              <CardTitle className="text-4xl md:text-5xl font-bold font-mono flex flex-col items-center">
                 <div>
-                  Ready to join this
-                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                    Community?
+                  Stop Guessing Which AI Girlfriend Is
+                  <span className="text-transparent pl-2 bg-gradient-to-r from-[#F59E0B] via-[#FBBF24] to-[#F97316] bg-clip-text">
+                    Worth It
                   </span>
                 </div>
               </CardTitle>
             </CardHeader>
-            <CardContent className="lg:w-[80%] text-xl text-muted-foreground">
-              Join our vibrant Discord community! Connect, share, and grow with
-              like-minded enthusiasts. Click to dive in! 🚀
+            <CardContent className="lg:w-[80%] text-xl text-muted-foreground font-mono">
+              See exactly what each platform includes — from images to video to chat — and choose based on real value, not hype.
             </CardContent>
 
-            <CardFooter>
-              <Button asChild>
-                <a href="https://discord.com/" target="_blank">
-                  Join Discord
+            <CardFooter className="gap-4 flex-col sm:flex-row">
+              <Button asChild className="font-bold font-mono group/arrow">
+                <a
+                  href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Try OurDream AI Free
+                  <ArrowRight className="size-4 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
                 </a>
+              </Button>
+
+              <Button asChild variant="secondary" className="font-bold font-mono">
+                <Link href="#top-picks">
+                  See All Rankings
+                </Link>
               </Button>
             </CardFooter>
           </Card>

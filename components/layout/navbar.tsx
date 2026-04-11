@@ -1,5 +1,5 @@
 "use client";
-import { ChevronsDown, Github, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import React from "react";
 import {
   Sheet,
@@ -19,6 +19,7 @@ import {
   NavigationMenuTrigger,
 } from "../ui/navigation-menu";
 import { Button } from "../ui/button";
+import { Badge } from "../ui/badge";
 import Link from "next/link";
 import Image from "next/image";
 import { ToggleTheme } from "./toogle-theme";
@@ -28,56 +29,75 @@ interface RouteProps {
   label: string;
 }
 
-interface FeatureProps {
+interface SubmenuItemProps {
   title: string;
   description: string;
+  href: string;
+  badge?: string;
 }
 
-const routeList: RouteProps[] = [
+const featureList: SubmenuItemProps[] = [
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    title: "Unlimited Images",
+    description: "Apps that don't charge per image generated.",
+    href: "/feature/unlimited-images",
   },
   {
-    href: "#team",
-    label: "Team",
+    title: "Voice Calls",
+    description: "Platforms with real-time or async voice included.",
+    href: "/feature/voice-calls",
   },
   {
-    href: "#contact",
-    label: "Contact",
+    title: "Video Generation",
+    description: "Which apps actually deliver usable video.",
+    href: "/feature/video-generation",
   },
   {
-    href: "#faq",
-    label: "FAQ",
+    title: "Long-Term Memory",
+    description: "AI companions that remember you over time.",
+    href: "/feature/long-term-memory",
+  },
+  {
+    title: "No Tokens / Credits",
+    description: "Flat plans with no hidden coin systems.",
+    href: "/feature/no-tokens",
+  },
+  {
+    title: "Cheapest Plans",
+    description: "Most value per dollar, tested with real accounts.",
+    href: "/feature/cheapest",
+    badge: "Popular",
   },
 ];
 
-const featureList: FeatureProps[] = [
+const hiddenCostsList: SubmenuItemProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
-  },
-  {
-    title: "Build Trust",
-    description:
-      "Leverages social proof elements to establish trust and credibility.",
-  },
-  {
-    title: "Capture Leads",
-    description:
-      "Make your lead capture form visually appealing and strategically.",
+    title: "Token & Coin Systems Explained",
+    description: "How platforms quietly charge you more.",
+    href: "/hidden-costs/token-systems",
+    badge: "Must Read",
   },
 ];
+
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+
   return (
-    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
-      <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Shadcn
+    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-3 bg-card">
+      {/* Logo */}
+      <Link href="/" className="flex items-center">
+        <Image
+          src="/logos/aigfnow-logo-transparent.png"
+          alt="aigfnow.com"
+          width={220}
+          height={80}
+          className="h-20 w-auto object-contain"
+          priority
+        />
       </Link>
-      {/* <!-- Mobile --> */}
+
+      {/* Mobile menu */}
       <div className="flex items-center lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
@@ -95,94 +115,161 @@ export const Navbar = () => {
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
-                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-                    Shadcn
+                    <Image
+                      src="/logos/aigfnow-logo-transparent.png"
+                      alt="aigfnow.com"
+                      width={180}
+                      height={64}
+                      className="h-16 w-auto object-contain"
+                    />
                   </Link>
                 </SheetTitle>
               </SheetHeader>
 
-              <div className="flex flex-col gap-2">
-                {routeList.map(({ href, label }) => (
-                  <Button
-                    key={href}
-                    onClick={() => setIsOpen(false)}
-                    asChild
-                    variant="ghost"
-                    className="justify-start text-base"
-                  >
-                    <Link href={href}>{label}</Link>
+              <div className="flex flex-col gap-1">
+                <p className="text-xs text-muted-foreground px-3 pt-2 pb-1 uppercase tracking-wide">
+                  Rankings
+                </p>
+                <Button onClick={() => setIsOpen(false)} asChild variant="ghost" className="justify-start text-base">
+                  <Link href="/">Value Rankings</Link>
+                </Button>
+                <p className="text-xs text-muted-foreground px-3 pt-3 pb-1 uppercase tracking-wide">
+                  By Feature
+                </p>
+                {featureList.map(({ href, title }) => (
+                  <Button key={href} onClick={() => setIsOpen(false)} asChild variant="ghost" className="justify-start text-base">
+                    <Link href={href}>{title}</Link>
                   </Button>
                 ))}
+
+                <p className="text-xs text-muted-foreground px-3 pt-3 pb-1 uppercase tracking-wide">
+                  Transparency
+                </p>
+                {hiddenCostsList.map(({ href, title }) => (
+                  <Button key={href} onClick={() => setIsOpen(false)} asChild variant="ghost" className="justify-start text-base">
+                    <Link href={href}>{title}</Link>
+                  </Button>
+                ))}
+                <Button onClick={() => setIsOpen(false)} asChild variant="ghost" className="justify-start text-base">
+                  <Link href="/how-we-test">How We Test</Link>
+                </Button>
+
+                <p className="text-xs text-muted-foreground px-3 pt-3 pb-1 uppercase tracking-wide">
+                  Featured
+                </p>
+                <Button onClick={() => setIsOpen(false)} asChild variant="ghost" className="justify-start text-base">
+                  <Link href="/review/aiallure-live-room" className="flex items-center gap-2">
+                    <span className="relative flex h-2 w-2">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-pink-500"></span>
+                    </span>
+                    Live Room Review
+                  </Link>
+                </Button>
               </div>
             </div>
 
-            <SheetFooter className="flex-col sm:flex-col justify-start items-start">
-              <Separator className="mb-2" />
-
+            <SheetFooter className="flex-col sm:flex-col justify-start items-start gap-3">
+              <Separator className="mb-1" />
+              <Button asChild className="w-full font-semibold">
+                <Link href="/match">Find My App →</Link>
+              </Button>
               <ToggleTheme />
             </SheetFooter>
           </SheetContent>
         </Sheet>
       </div>
 
-      {/* <!-- Desktop --> */}
+      {/* Desktop nav */}
       <NavigationMenu className="hidden lg:block mx-auto">
         <NavigationMenuList>
+
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-card text-base">
-              Features
+            <NavigationMenuLink asChild>
+              <Link href="/" className="text-lg font-medium px-4 py-2 hover:text-primary transition-colors">
+                Rankings
+              </Link>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="bg-card !text-lg !font-medium">
+              By Feature
             </NavigationMenuTrigger>
             <NavigationMenuContent>
-              <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
-                <Image
-                  src="https://avatars.githubusercontent.com/u/75042455?v=4"
-                  alt="RadixLogo"
-                  className="h-full w-full rounded-md object-cover"
-                  width={600}
-                  height={600}
-                />
-                <ul className="flex flex-col gap-2">
-                  {featureList.map(({ title, description }) => (
-                    <li
-                      key={title}
-                      className="rounded-md p-3 text-sm hover:bg-muted"
-                    >
-                      <p className="mb-1 font-semibold leading-none text-foreground">
-                        {title}
-                      </p>
-                      <p className="line-clamp-2 text-muted-foreground">
-                        {description}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <ul className="grid w-[480px] grid-cols-2 gap-2 p-4">
+                {featureList.map(({ title, description, href, badge }) => (
+                  <li key={title}>
+                    <NavigationMenuLink asChild>
+                      <Link href={href} className="block rounded-md p-3 text-base hover:bg-muted transition-colors">
+                        <div className="flex items-center gap-2 mb-1">
+                          <p className="font-semibold leading-none text-foreground">{title}</p>
+                          {badge && (
+                            <Badge variant="secondary" className="text-[10px] px-1.5 py-0 h-4">{badge}</Badge>
+                          )}
+                        </div>
+                        <p className="line-clamp-2 text-muted-foreground text-sm leading-relaxed">{description}</p>
+                      </Link>
+                    </NavigationMenuLink>
+                  </li>
+                ))}
+              </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            {routeList.map(({ href, label }) => (
-              <NavigationMenuLink key={href} asChild>
-                <Link href={href} className="text-base px-2">
-                  {label}
-                </Link>
-              </NavigationMenuLink>
-            ))}
+            <NavigationMenuTrigger className="bg-card !text-lg !font-medium">
+              Hidden Costs
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className="grid w-[420px] gap-2 p-4">
+                {hiddenCostsList.map(({ title, description, href, badge }) => (
+                  <li key={title}>
+                    <NavigationMenuLink asChild>
+                      <Link href={href} className="block rounded-md p-3 text-base hover:bg-muted transition-colors">
+                        <div className="flex items-center gap-2 mb-1">
+                          <p className="font-semibold leading-none text-foreground">{title}</p>
+                          {badge && (
+                            <Badge variant="destructive" className="text-[10px] px-1.5 py-0 h-4">{badge}</Badge>
+                          )}
+                        </div>
+                        <p className="line-clamp-2 text-muted-foreground text-sm leading-relaxed">{description}</p>
+                      </Link>
+                    </NavigationMenuLink>
+                  </li>
+                ))}
+              </ul>
+            </NavigationMenuContent>
           </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuLink asChild>
+              <Link href="/how-we-test" className="text-lg font-medium px-4 py-2 hover:text-primary transition-colors">
+                How We Test
+              </Link>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuLink asChild>
+              <Link href="/review/aiallure-live-room" className="text-lg font-medium px-4 py-2 hover:text-primary transition-colors flex items-center gap-1.5">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-pink-500"></span>
+                </span>
+                Live Room
+              </Link>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+
         </NavigationMenuList>
       </NavigationMenu>
 
-      <div className="hidden lg:flex">
+      {/* Right side */}
+      <div className="hidden lg:flex items-center gap-2">
         <ToggleTheme />
-
-        <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
-          <Link
-            aria-label="View on GitHub"
-            href="https://github.com/nobruf/shadcn-landing-page.git"
-            target="_blank"
-          >
-            <Github className="size-5" />
-          </Link>
+        <Button asChild size="sm" className="font-semibold">
+          <Link href="/match">Find My App →</Link>
         </Button>
       </div>
     </header>

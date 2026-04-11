@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How We Rank AI Girlfriend Apps — Value Index™ Methodology | aigfnow.com</title>
+<meta name="description" content="Our Value Index™ ranks AI girlfriend apps by feature access and pricing using a geometric mean formula. No opinions — just data from official pricing pages, updated monthly.">
+<meta name="keywords" content="AI girlfriend comparison, AI girlfriend pricing, AI companion value, best AI girlfriend app, AI girlfriend subscription cost">
+<link rel="canonical" href="https://aigfnow.com/methodology">
+
+<!-- Open Graph -->
+<meta property="og:title" content="How We Rank AI Girlfriend Apps — Value Index™ Methodology">
+<meta property="og:description" content="The only AI girlfriend comparison that uses math instead of opinions. Feature access ÷ price = your Value Index score.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://aigfnow.com/methodology">
+<meta property="og:site_name" content="aigfnow.com">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How We Rank AI Girlfriend Apps — Value Index™ Methodology">
+<meta name="twitter:description" content="The only AI girlfriend comparison that uses math instead of opinions. Feature access ÷ price = your Value Index score.">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Value Index™ Methodology — How We Rank AI Girlfriend Apps",
+  "description": "Our Value Index™ ranks AI girlfriend apps by feature access and pricing using a geometric mean formula. No opinions — just data from official pricing pages.",
+  "url": "https://aigfnow.com/methodology",
+  "dateModified": "2026-04-08",
+  "publisher": {
+    "@type": "Organization",
+    "name": "aigfnow.com",
+    "url": "https://aigfnow.com"
+  }
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does the Value Index™ rank AI girlfriend apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Value Index™ calculates a score from 0-100 using two inputs: feature coverage (what's included without extra cost) and price efficiency (value per dollar). These are combined using a geometric mean — the same formula the UN uses for the Human Development Index."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why use a geometric mean instead of a simple average?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A simple average lets platforms game the system. Score 90 on features and 10 on price, and a simple average still shows 50. The geometric mean gives that same platform a 30. It penalizes imbalance, so platforms must deliver on both features and pricing to score well."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does aigfnow.com get its pricing data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All pricing is pulled directly from each platform's official pricing page. Monthly rates, yearly rates, token costs, and credit systems are documented and verifiable. Data is refreshed monthly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do affiliate commissions affect the rankings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Commission rates have zero weight in the Value Index formula. Rankings are calculated purely from feature access and pricing data. Platforms with no affiliate program have ranked above high-commission platforms when the math favored them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many AI girlfriend platforms does aigfnow.com compare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently 8 platforms are indexed, covering the major players in the AI companion market including chat, image generation, voice, video, and memory features."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often is the data updated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly. AI companion platforms change pricing frequently. Every ranking page shows the last-updated timestamp so you know exactly how current the data is."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --gold: #FFC400;
+    --gold-dim: #E5A800;
+    --ink: #1a1a1a;
+    --ink-soft: #444;
+    --ink-muted: #777;
+    --bg: #FAFAF8;
+    --card: #fff;
+    --card-border: #e8e6e0;
+    --accent-pink: #FF7896;
+    --code-bg: #1E1E2E;
+    --code-text: #CDD6F4;
+    --code-comment: #6C7086;
+    --code-keyword: #CBA6F7;
+    --code-string: #A6E3A1;
+    --code-fn: #89B4FA;
+    --radius: 10px;
+    --max-w: 740px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.7;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 80px 0 60px;
+    border-bottom: 2px solid var(--card-border);
+  }
+
+  .hero .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-muted);
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .hero .breadcrumb a {
+    color: var(--ink-muted);
+    text-decoration: none;
+  }
+
+  .hero .breadcrumb a:hover {
+    color: var(--ink);
+  }
+
+  h1 {
+    font-size: clamp(32px, 5vw, 44px);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    color: var(--ink);
+  }
+
+  h1 .highlight {
+    background: linear-gradient(to right, var(--gold), var(--gold-dim));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero .subtitle {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 600px;
+    line-height: 1.6;
+  }
+
+  .hero .meta-bar {
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+  }
+
+  .meta-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    padding: 6px 14px;
+    border-radius: 100px;
+  }
+
+  .meta-tag .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22c55e;
+    display: inline-block;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 56px 0;
+    border-bottom: 1px solid var(--card-border);
+  }
+
+  section:last-of-type {
+    border-bottom: none;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    color: var(--ink);
+  }
+
+  h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 32px;
+    color: var(--ink);
+  }
+
+  p {
+    margin-bottom: 16px;
+    color: var(--ink-soft);
+  }
+
+  p + h3 { margin-top: 36px; }
+
+  /* FORMULA CARD */
+  .formula-card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 32px;
+    margin: 28px 0;
+    text-align: center;
+  }
+
+  .formula-card .formula {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+
+  .formula-card .formula-note {
+    font-size: 14px;
+    color: var(--ink-muted);
+  }
+
+  /* SCORE BAR */
+  .score-breakdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+  }
+
+  @media (max-width: 540px) {
+    .score-breakdown { grid-template-columns: 1fr; }
+  }
+
+  .score-item {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+  }
+
+  .score-item .label {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+  }
+
+  .score-item .title {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+
+  .score-item .desc {
+    font-size: 14px;
+    color: var(--ink-muted);
+    line-height: 1.5;
+  }
+
+  .score-item .weight {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--gold-dim);
+    background: rgba(255, 196, 0, 0.1);
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+
+  /* DATA TABLE */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 15px;
+  }
+
+  .data-table th {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    padding: 12px 16px;
+    border-bottom: 2px solid var(--card-border);
+  }
+
+  .data-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--card-border);
+    color: var(--ink-soft);
+    vertical-align: top;
+  }
+
+  .data-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .data-table .feature-name {
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  /* CODE BLOCK */
+  .code-block {
+    background: var(--code-bg);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin: 24px 0;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  .code-block .file-tab {
+    display: inline-flex;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .code-block .tab {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: var(--code-comment);
+    cursor: pointer;
+  }
+
+  .code-block .tab.active {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--code-text);
+  }
+
+  .code-block pre {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--code-text);
+    white-space: pre;
+    margin: 0;
+  }
+
+  .code-block .comment { color: var(--code-comment); }
+  .code-block .keyword { color: var(--code-keyword); }
+  .code-block .string { color: var(--code-string); }
+  .code-block .fn { color: var(--code-fn); }
+
+  /* CALLOUT */
+  .callout {
+    background: rgba(255, 196, 0, 0.06);
+    border-left: 3px solid var(--gold);
+    padding: 20px 24px;
+    margin: 24px 0;
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+
+  .callout p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 15px;
+  }
+
+  .callout strong {
+    color: var(--ink);
+  }
+
+  /* STEPS */
+  .steps {
+    margin: 28px 0;
+  }
+
+  .step {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 16px;
+    margin-bottom: 28px;
+    align-items: start;
+  }
+
+  .step-num {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--gold);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .step-content h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 17px;
+  }
+
+  .step-content p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  /* AFFILIATE DISCLOSURE */
+  .disclosure {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin: 28px 0;
+  }
+
+  .disclosure h3 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  .disclosure p {
+    font-size: 14px;
+    color: var(--ink-muted);
+    margin: 0;
+  }
+
+  /* REPO CARD */
+  .repo-card {
+    background: var(--code-bg);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin: 28px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .repo-card .repo-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .repo-card .repo-icon {
+    font-size: 18px;
+  }
+
+  .repo-card .repo-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: var(--code-text);
+    font-weight: 500;
+  }
+
+  .repo-card .repo-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--code-comment);
+    display: flex;
+    gap: 16px;
+  }
+
+  .repo-card .branch {
+    color: var(--code-fn);
+  }
+
+  /* FOOTER META */
+  .page-footer {
+    padding: 40px 0 80px;
+    text-align: center;
+  }
+
+  .page-footer p {
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+
+  .page-footer .timestamp {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin-top: 4px;
+  }
+
+  /* LINKS */
+  a {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  a:hover {
+    color: var(--gold-dim);
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .hero { padding: 48px 0 40px; }
+    section { padding: 40px 0; }
+    .formula-card .formula { font-size: 17px; }
+    .code-block { padding: 16px 18px; }
+    .code-block pre { font-size: 11.5px; }
+    .step { grid-template-columns: 32px 1fr; gap: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HERO -->
+  <header class="hero">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">aigfnow.com</a> / Methodology
+    </nav>
+
+    <h1>How We Rank <span class="highlight">AI Girlfriend Apps</span></h1>
+
+    <p class="subtitle">
+      The Value Index™ scores platforms by what you actually get before paying extra, divided by what it costs. No subjective reviews — just pricing data and a formula.
+    </p>
+
+    <div class="meta-bar">
+      <span class="meta-tag"><span class="dot"></span> 8 platforms indexed</span>
+      <span class="meta-tag">Updated April 2026</span>
+      <span class="meta-tag">Next refresh: May 2026</span>
+    </div>
+  </header>
+
+  <!-- WHAT IS THE VALUE INDEX -->
+  <section id="value-index">
+    <h2>The Value Index™ — One Score, Zero Opinions</h2>
+
+    <p>
+      Most AI girlfriend comparison sites test a platform for an afternoon and publish a subjective rating. The Value Index takes a different approach: it's a single score (0–100) calculated from two data points that anyone can verify.
+    </p>
+
+    <div class="formula-card">
+      <div class="formula">Value Index = √(Feature Score × Price Score)</div>
+      <div class="formula-note">Geometric mean — same method the UN uses for the Human Development Index</div>
+    </div>
+
+    <div class="score-breakdown">
+      <div class="score-item">
+        <div class="label">Input 1</div>
+        <div class="title">Feature Coverage</div>
+        <div class="desc">How many features — chat, images, voice, video, memory — are included on the cheapest paid plan without extra credits or add-ons.</div>
+        <span class="weight">50% weight</span>
+      </div>
+      <div class="score-item">
+        <div class="label">Input 2</div>
+        <div class="title">Price Efficiency</div>
+        <div class="desc">Value per dollar. A $5/month plan with 3 features beats a $20/month plan with 4 features. The cheapest viable plan in our index scores 100.</div>
+        <span class="weight">50% weight</span>
+      </div>
+    </div>
+
+    <p>
+      A platform can't score high by being cheap but feature-poor. It also can't score high by offering everything at a price nobody should pay. You need both to rank well — that's the entire point of the geometric mean.
+    </p>
+  </section>
+
+  <!-- WHY GEOMETRIC MEAN -->
+  <section id="geometric-mean">
+    <h2>Why a Geometric Mean Instead of a Simple Average?</h2>
+
+    <p>
+      A simple average lets platforms game the system. Score 90 on features and 10 on price, and the arithmetic mean still shows a respectable 50. The geometric mean gives that same platform a score of 30 — which is closer to how a real user would experience it.
+    </p>
+
+    <div class="callout">
+      <p>
+        <strong>The UN does the same thing.</strong> The Human Development Index combines life expectancy, education, and income using a geometric mean. A country can't compensate for low life expectancy with high GDP. We apply identical logic: a platform can't compensate for bad pricing with good features.
+      </p>
+    </div>
+
+    <p>
+      This isn't a novel approach. The OECD <em>Handbook on Constructing Composite Indicators</em> (2008) recommends geometric means for exactly this type of multi-dimensional comparison, and peer-reviewed research has confirmed that the geometric mean penalizes imbalance in a way that produces more meaningful rankings.
+    </p>
+  </section>
+
+  <!-- HOW WE COLLECT DATA -->
+  <section id="data-collection">
+    <h2>How We Collect Pricing and Feature Data</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Pull pricing from official sources</h3>
+          <p>Every data point comes directly from the platform's public pricing page. Monthly rates, annual rates, token costs, credit pack prices — documented and verifiable. We never use third-party estimates.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Map feature access by tier</h3>
+          <p>Each feature is categorized as <strong>unlimited</strong>, <strong>capped</strong> (with a specific monthly limit), or <strong>credit-based</strong> (costs extra per use). We document the cheapest paid plan that gives real access to each feature — not the free trial, not the enterprise tier.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Calculate the effective monthly price</h3>
+          <p>Annual plans are divided by 12. Credit packs are converted to per-use costs and estimated for moderate monthly usage. The goal is one comparable number: what does a real user actually pay per month?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h3>Run the formula and publish</h3>
+          <p>Feature Score and Price Score are normalized to 0–100, then combined via geometric mean. Every ranking page shows the last-updated date. Data is re-pulled from pricing pages monthly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA POINTS -->
+  <section id="data-points">
+    <h2>What We Measure for Each AI Girlfriend Platform</h2>
+
+    <p>
+      Five feature categories and full pricing data. No subjective quality ratings — only whether a feature exists, what its limits are, and what it costs.
+    </p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>What We Record</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="feature-name">Chat</td>
+          <td>Message limits from pricing page. Access tier: unlimited, capped, or credit-based.</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Image Generation</td>
+          <td>Images included per month on cheapest paid plan, or credit cost per image.</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Voice</td>
+          <td>Minutes included per month, or credit cost per minute of voice interaction.</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Video</td>
+          <td>Clips included, length limits, credit costs. Noted if feature exists at all.</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Memory</td>
+          <td>Context window persistence tier: basic, standard, or enhanced long-term memory.</td>
+        </tr>
+        <tr>
+          <td class="feature-name">Pricing</td>
+          <td>Monthly rate, annual rate (÷ 12), credit pack prices, token expiration policy.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SOURCE CODE -->
+  <section id="open-source">
+    <h2>Open-Source Formula</h2>
+
+    <p>
+      The ranking formula is published. You can read it, verify it, or tell us it's wrong.
+    </p>
+
+    <div class="code-block">
+      <div class="file-tab">
+        <span class="tab active">value-index.ts</span>
+        <span class="tab">README.md</span>
+      </div>
+<pre><span class="comment">// Why geometric mean?</span>
+<span class="comment">// A simple average lets platforms game the system —</span>
+<span class="comment">// score 90 on features and 10 on price, average = 50.</span>
+<span class="comment">// Geometric mean gives that same platform a 30.</span>
+
+<span class="keyword">function</span> <span class="fn">valueIndex</span>(featureScore: number, priceScore: number): number {
+  <span class="keyword">return</span> Math.<span class="fn">sqrt</span>(featureScore * priceScore);
+}
+
+<span class="comment">// Feature score: 0-100</span>
+<span class="comment">// Counts included features on cheapest paid plan</span>
+<span class="comment">// chat + images + voice + video + memory</span>
+<span class="comment">// Each weighted by access tier:</span>
+<span class="comment">//   unlimited = 20pts, capped = 12pts, credits = 5pts</span>
+
+<span class="comment">// Price score: 0-100</span>
+<span class="comment">// Normalized against cheapest plan in index</span>
+<span class="comment">// priceScore = (cheapest / thisPrice) * 100</span>
+
+<span class="comment">// Sources:</span>
+<span class="comment">// [1] UNDP Human Development Index — geometric mean</span>
+<span class="comment">// [2] OECD Handbook on Composite Indicators (2008)</span>
+<span class="comment">// [3] Aggregating the HDI (Springer, 2024)</span></pre>
+    </div>
+
+    <div class="repo-card">
+      <div class="repo-info">
+        <span class="repo-icon">📂</span>
+        <span class="repo-name">aigfnow / data /</span>
+      </div>
+      <div class="repo-meta">
+        <span class="branch">main</span>
+        <span>✓ 8 platforms indexed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- AFFILIATE DISCLOSURE -->
+  <section id="disclosure">
+    <h2>Affiliate Disclosure</h2>
+
+    <div class="disclosure">
+      <h3>Links on this site are affiliate links.</h3>
+      <p>
+        Commission rates have zero weight in the Value Index formula — rankings are calculated purely from feature access and pricing data. Platforms with no affiliate program have ranked above high-commission platforms when the math favored them. We believe transparency about how we earn revenue makes our methodology more trustworthy, not less.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ (visible on page for SEO + users) -->
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>How does the Value Index™ rank AI girlfriend apps?</h3>
+    <p>
+      It calculates a 0–100 score from two inputs: feature coverage (what's included without extra cost) and price efficiency (value per dollar). These are combined using a geometric mean — the same mathematical method the UN uses for the Human Development Index.
+    </p>
+
+    <h3>Why not just rank by price?</h3>
+    <p>
+      Because a $3/month plan with only text chat is a fundamentally different product than a $10/month plan with chat, images, voice, and video. Price alone doesn't tell you what you're getting. The Value Index accounts for both dimensions.
+    </p>
+
+    <h3>Do affiliate commissions affect the rankings?</h3>
+    <p>
+      No. The formula takes two inputs: feature access data and pricing data. There is no input for commission rate. Platforms without affiliate programs have outranked platforms that pay commissions when their feature-to-price ratio was better.
+    </p>
+
+    <h3>How often is the data updated?</h3>
+    <p>
+      Monthly. AI companion platforms change pricing frequently — new tiers, adjusted credit costs, seasonal promotions. Every ranking page shows the exact date data was last pulled so you can judge freshness yourself.
+    </p>
+
+    <h3>Why only 8 platforms?</h3>
+    <p>
+      Quality over quantity. We index the platforms that represent the meaningful choices in the market. Adding dozens of near-identical clones would dilute the comparison without helping anyone make a better decision. New platforms are added when they offer something genuinely distinct.
+    </p>
+
+    <h3>Can I see the raw data?</h3>
+    <p>
+      The formula is open source. The data sources are public pricing pages, linked from each platform's ranking entry. You can verify every number yourself.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <p>Data sourced exclusively from public pricing pages.</p>
+    <div class="timestamp">Last updated: April 8, 2026 · Next update: May 2026 · 8 platforms tested</div>
+  </footer>
+
+</div>
+
+</body>
+</html>

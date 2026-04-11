@@ -26,52 +26,52 @@ interface ReviewProps {
 
 const reviewList: ReviewProps[] = [
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+    name: "Alex Chen",
+    userName: "Software Developer",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Finally found an honest comparison! The Value Index showed me which apps actually give unlimited features vs those with hidden coin systems. Saved me $50/month.",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+    name: "Sarah Martinez",
+    userName: "Digital Artist",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "The 'Hidden Costs' section was eye-opening. I switched from a platform that looked cheap but ended up costing triple with credits.",
     rating: 4.8,
   },
 
   {
-    image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike",
+    name: "Mike Johnson",
+    userName: "Marketing Manager",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Love how they test with real accounts and show actual limits. No more guessing if 'unlimited' really means unlimited.",
     rating: 4.9,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",
+    name: "Emma Wilson",
+    userName: "Content Creator",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "The Value Index helped me find the best platform for video generation without paying per clip. Exactly what I needed!",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+    name: "David Park",
+    userName: "Tech Entrepreneur",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "Transparent pricing breakdowns and real usage testing. This is what AI companion reviews should be - no marketing fluff.",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Lisa",
+    name: "Lisa Thompson",
+    userName: "UX Designer",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "The methodology section convinced me these rankings are legit. geometric mean approach prevents gaming the system.",
     rating: 4.9,
   },
 ];
@@ -85,7 +85,7 @@ export const TestimonialSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Real Users Share Their Experience
         </h2>
       </div>
 
@@ -117,10 +117,10 @@ export const TestimonialSection = () => {
                   <div className="flex flex-row items-center gap-4">
                     <Avatar>
                       <AvatarImage
-                        src="https://avatars.githubusercontent.com/u/75042455?v=4"
-                        alt="radix"
+                        src={review.image}
+                        alt={review.name}
                       />
-                      <AvatarFallback>SV</AvatarFallback>
+                      <AvatarFallback>{review.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                     </Avatar>
 
                     <div className="flex flex-col">

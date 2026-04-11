@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: ["next-mdx-remote"],
   images: {
     remotePatterns: [
       {
@@ -13,6 +14,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "github.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.google.com",
       },
     ],
   },
