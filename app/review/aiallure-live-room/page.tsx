@@ -226,6 +226,7 @@ export default function AiAllureLiveRoomReview() {
           </p>
         </section>
 
+        
         {/* First Inline CTA */}
         <div className="bg-card border-2 border-amber-400 rounded-xl p-6 my-10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
@@ -249,14 +250,14 @@ export default function AiAllureLiveRoomReview() {
               <span className="absolute top-3 left-3 z-10 font-mono text-xs font-semibold bg-foreground text-amber-400 px-3 py-1 rounded-full">
                 Demo 1
               </span>
-              <video
-                className="w-full aspect-[9/16] object-cover"
-                controls
-                preload="metadata"
-              >
-                <source src="/videos/ScreenRecording_04-09-2026 17-29-16_1.mov#t=1" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <iframe
+                className="w-full aspect-[9/16]"
+                src="https://www.youtube.com/embed/kpyj4UX057M?autoplay=1&mute=1&loop=1&playlist=kpyj4UX057M&controls=1&showinfo=0&modestbranding=1&rel=0"
+                title="AiAllure Live Room Demo 1"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
             <p className="font-semibold mt-3">Voice & Lip Sync in Action</p>
             <p className="text-sm text-muted-foreground font-light mt-1">
