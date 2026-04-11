@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ["next-mdx-remote"],
-  basePath: '/aigfnow-shadcn',
-  assetPrefix: '/aigfnow-shadcn',
   images: {
     unoptimized: true,
     remotePatterns: [
