@@ -35,7 +35,7 @@ export const HeroSection = () => {
               <span className="mr-2 text-primary">
                 <Badge>2026 Rankings</Badge>
               </span>
-              <span> Updated weekly </span>
+              <span> Updated monthly </span>
             </Badge>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 font-mono">

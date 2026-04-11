@@ -12,17 +12,17 @@ const REVIEWS_DIR = path.join(process.cwd(), "content", "reviews");
 export const metadata: Metadata = {
   title: "Blog — AI GF Now | Reviews, Comparisons & Guides",
   description:
-    "AI companion app reviews, head-to-head comparisons, and guides. Updated weekly with honest testing results.",
+    "AI companion app reviews, head-to-head comparisons, and guides. Updated monthly with honest testing results.",
   openGraph: {
     title: "Blog — AI GF Now | Reviews, Comparisons & Guides",
-    description: "AI companion app reviews, head-to-head comparisons, and guides. Updated weekly.",
+    description: "AI companion app reviews, head-to-head comparisons, and guides. Updated monthly.",
     type: "website",
     url: "https://aigfnow.com/blog",
   },
   twitter: {
     card: "summary_large_image",
     title: "AI GF Now Blog | Reviews & Comparisons",
-    description: "AI companion app reviews and comparisons. Updated weekly.",
+    description: "AI companion app reviews and comparisons. Updated monthly.",
   },
   alternates: {
     canonical: "https://aigfnow.com/blog",
