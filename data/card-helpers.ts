@@ -71,6 +71,17 @@ export function getCreditFeatures(platform: PlatformData): string[] {
     }
   }
 
+  // Platforms with capped features that charge coins on overage
+  const hasCappedFeatures =
+    [platform.features.images, platform.features.voice, platform.features.video].some(
+      (f) => f === "generous_cap" || f === "moderate_cap"
+    );
+  if (hasCappedFeatures && (platform.limits.monthlyCreditsIncluded ?? 0) > 0) {
+    const coinLabel =
+      platform.meta.slug === "ourdream-ai" ? "DreamCoins" : "credits";
+    items.push(`Overage beyond monthly cap — costs ${coinLabel}`);
+  }
+
   return items;
 }
 
@@ -98,7 +109,7 @@ export function getUsageRealityLine(platform: PlatformData): string | null {
     return "100 tokens/month is enough for light testing, not heavy media use.";
   }
 
-  if (platform.meta.slug === "ourdream") {
+  if (platform.meta.slug === "ourdream-ai") {
     return "Includes 200 images, 20 voice minutes, and 10 videos before extra DreamCoins.";
   }
 

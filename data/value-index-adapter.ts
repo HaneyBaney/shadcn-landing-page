@@ -21,6 +21,18 @@ function toFeatureList(platform: any): Feature[] {
     ];
   }
   
+  // Special case for OurDream AI — capped features charge DreamCoins on overage
+  if (platform.meta.slug === "ourdream-ai") {
+    return [
+      { key: "chat", label: "Chat", access: mapAccess(platform.features.chat) },
+      { key: "images", label: "Image Gen", access: mapAccess(platform.features.images), detail: "200/mo" },
+      { key: "voice", label: "Voice", access: mapAccess(platform.features.voice), detail: "20 min/mo" },
+      { key: "video", label: "Video", access: mapAccess(platform.features.video), detail: "10/mo" },
+      { key: "memory", label: "Memory", access: mapAccess(platform.features.memory), detail: platform.memoryLevel },
+      { key: "overage", label: "Overage beyond cap", access: "coins" as const, detail: "costs DreamCoins" },
+    ];
+  }
+
   // Special case for Nectar AI to include photo messages
   if (platform.meta.slug === "nectar-ai") {
     return [

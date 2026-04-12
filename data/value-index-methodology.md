@@ -12,55 +12,75 @@ The Value Index™ measures one thing only:
 
 ## How it works
 
-We score each platform on two dimensions:
+We score each platform across **four dimensions**, then combine them using a weighted geometric mean.
 
-### 1. Feature Coverage
-What's included in the base subscription — before credits, tokens, or paywalls.
+### 1. Usability Score (35% weight)
+What access level each feature provides in the base subscription.
 
-We track:
-- Chat
-- Image generation  
-- Voice
-- Video
-- Memory
+We track five features with these weights:
+- **Chat** — 25%
+- **Images** — 25%
+- **Video** — 20%
+- **Voice** — 15%
+- **Memory** — 15%
 
-Each feature is classified as:
-- **Included** (no limits)
-- **Limited** (daily/monthly caps)
-- **Credit-based** (requires extra payment)
-
----
-
-### 2. Price Efficiency
-
-How close the plan is to the cheapest option tested.
-
-- The cheapest plan = 100
-- More expensive plans score proportionally lower
+Each feature is assigned an access-level score:
+- **Unlimited** = 1.00
+- **Generous cap** = 0.85
+- **Moderate cap** = 0.65
+- **Credit-based** = 0.40
+- **Limited** = 0.25
+- **Locked** = 0.00
 
 ---
 
-## Why we use geometric mean
+### 2. Cost Protection Score (30% weight)
+How much of a realistic monthly usage is covered before you need to pay extra.
+
+We benchmark typical usage as: 2,000 chat messages, 100 images, 30 min voice, 8 videos/month.
+Unlimited access = full coverage. Capped features are scored proportionally. Credit-based features are estimated based on the included monthly credit allowance.
+
+---
+
+### 3. Quality Score (30% weight)
+Actual performance quality, rated from our testing:
+- **Memory quality** — 35%
+- **Visual quality** — 20%
+- **Video quality** — 15%
+- **Voice quality** — 15%
+- **Platform extras** — 15%
+
+---
+
+### 4. Price Efficiency Score (5% weight)
+How the yearly plan price compares to the median across all tested platforms.
+
+- At or below median price = higher score
+- Significantly above median = lower score
+
+Price has only a 5% weight intentionally — cheap-but-useless platforms should not rank high.
+
+---
+
+## Why we use weighted geometric mean
 
 Most rankings can be gamed.
 
 Example:
 - Platform A: amazing features (90), terrible price (10)
-- Average score = 50 → looks "good"
+- Simple average = 50 → looks "good"
 
 That's misleading.
 
-We use a geometric mean instead:
+We use a **weighted geometric mean** instead — the same method used by the UN Human Development Index:
 
-**Value Index = √(coverage × priceEfficiency)**
-
-That same platform scores 30, not 50.
+**Value Index = geometricMean([Usability, CostProtection, Quality, Price], [0.35, 0.30, 0.30, 0.05]) × 100**
 
 Because:
-- Expensive platforms shouldn't rank high
-- Cheap but useless platforms shouldn't rank high
+- Expensive platforms with few included features shouldn't rank high
+- Cheap platforms with poor quality shouldn't rank high
 
-Both must be strong.
+All four dimensions must be strong to score well.
 
 ---
 
