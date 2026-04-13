@@ -27,7 +27,7 @@ const quickComparisons = [
     title: "Best for Unlimited Images",
     winner: "AiAllure",
     reason: "Unlimited image generation included in base plan",
-    href: "/best/unlimited-images",
+    href: "/feature/unlimited-images",
     icon: Zap,
   },
   {
