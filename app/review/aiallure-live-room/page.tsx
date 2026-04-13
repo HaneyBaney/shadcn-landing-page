@@ -68,6 +68,10 @@ const productSchema = {
   "@type": "Product",
   "name": "AiAllure Live Room",
   "description": "Real-time AI companion video call feature with lip-synced voice, touch interaction, and custom expressions",
+  "image": [
+    "https://aigfnow.com/logos/aiallure.png"
+  ],
+  "url": "https://aigfnow.com/review/aiallure-live-room",
   "brand": { "@type": "Brand", "name": "AiAllure" },
   "review": {
     "@type": "Review",
@@ -77,6 +81,7 @@ const productSchema = {
   },
   "offers": {
     "@type": "Offer",
+    "url": "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
     "price": "9.90",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
