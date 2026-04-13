@@ -8,21 +8,21 @@ import Link from "next/link";
 export const HeroSection = () => {
   return (
     <section className="container w-full">
-      <div className="max-w-screen-xl mx-auto py-20 md:py-32 px-4">
+      <div className="max-w-screen-xl mx-auto py-16 md:py-28 px-4">
         {/* ROW: mascot LEFT — text RIGHT */}
-        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "3rem" }}>
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
 
           {/* MASCOT — left */}
-          <div style={{ flexShrink: 0 }}>
-            <div style={{ position: "relative", width: "240px", height: "240px" }}>
+          <div className="flex-shrink-0 mb-8 md:mb-0">
+            <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-60 md:h-60">
               <div className="absolute inset-0 bg-primary/30 rounded-full blur-2xl scale-110" />
-              <div style={{ position: "relative", width: "100%", height: "100%", borderRadius: "9999px", overflow: "hidden", border: "2px solid rgba(245,158,11,0.3)" }}>
+              <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-amber-400/30">
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
-                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  className="w-full h-full object-cover"
                   src="/videos/v2_1773140792584-636230495.mp4"
                 />
               </div>
@@ -30,7 +30,7 @@ export const HeroSection = () => {
           </div>
 
           {/* TEXT — right */}
-          <div style={{ flex: 1 }}>
+          <div className="flex-1 text-center md:text-left">
             <Badge variant="outline" className="text-sm py-2 mb-6 font-mono">
               <span className="mr-2 text-primary">
                 <Badge>2026 Rankings</Badge>
@@ -55,7 +55,7 @@ export const HeroSection = () => {
               No opinions. No sponsorships. Just data.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button asChild size="lg" className="font-bold font-mono group/arrow">
                 <a href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2" target="_blank" rel="noopener noreferrer">
                   Meet Your Match

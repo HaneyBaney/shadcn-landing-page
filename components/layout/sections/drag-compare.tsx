@@ -414,10 +414,10 @@ function PlatformCard({ entry, rank }: { entry: ScoredEntry; rank: number }) {
 
   return (
     <div className={[
-      "relative rounded-2xl border p-6 md:p-8 transition-all duration-200 hover:scale-[1.01] hover:shadow-xl hover:z-10",
+      "relative rounded-2xl border p-6 md:p-8 transition-all duration-200 md:hover:scale-[1.01] md:hover:shadow-xl md:hover:z-10",
       isWinner
-        ? "border-primary/30 bg-gradient-to-b from-primary/[0.04] to-card shadow-lg shadow-primary/5 hover:shadow-primary/10"
-        : "border-border dark:border-white/[0.08] bg-card hover:border-primary/30 hover:shadow-lg",
+        ? "border-primary/30 bg-gradient-to-b from-primary/[0.04] to-card shadow-lg shadow-primary/5 md:hover:shadow-primary/10"
+        : "border-border dark:border-white/[0.08] bg-card md:hover:border-primary/30 md:hover:shadow-lg",
     ].join(" ")}>
       {isWinner && (
         <div className="absolute -top-4 left-6 flex items-center gap-1.5 rounded-full bg-primary px-4 py-1.5 text-sm font-bold font-mono text-primary-foreground shadow-md">
@@ -439,7 +439,7 @@ function PlatformCard({ entry, rank }: { entry: ScoredEntry; rank: number }) {
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={platform.logo ?? `https://www.google.com/s2/favicons?domain=${platform.domain}&sz=64`} alt={`${platform.name} logo`} className={`rounded-lg shadow-sm ${isWinner ? "size-10" : "size-8"} object-contain`} />
-            <h3 className="font-mono font-black text-3xl md:text-4xl tracking-tight">{platform.name}</h3>
+            <h3 className="font-mono font-black text-2xl md:text-4xl tracking-tight break-words">{platform.name}</h3>
             <RankDelta rank={entry.rank} prev={entry.prevRank} />
           </div>
           {content && (
@@ -730,7 +730,7 @@ function ValueCalculator() {
 /* ── Main section ── */
 export function DragCompareSection() {
   return (
-    <section className="container py-16 md:py-24">
+    <section id="platforms" className="container py-16 md:py-24 overflow-x-hidden">
       <div className="max-w-4xl mx-auto">
 
       {/* ── Header ── */}

@@ -109,9 +109,9 @@ export const Navbar = () => {
 
           <SheetContent
             side="left"
-            className="flex flex-col justify-between rounded-tr-2xl rounded-br-2xl bg-card border-secondary"
+            className="flex h-dvh max-h-dvh flex-col justify-between rounded-tr-2xl rounded-br-2xl bg-card border-secondary overflow-hidden"
           >
-            <div>
+            <div className="flex flex-1 min-h-0 flex-col overflow-y-auto">
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
@@ -126,7 +126,7 @@ export const Navbar = () => {
                 </SheetTitle>
               </SheetHeader>
 
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col gap-1 pb-24">
                 <p className="text-xs text-muted-foreground px-3 pt-2 pb-1 uppercase tracking-wide">
                   Rankings
                 </p>
