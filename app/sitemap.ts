@@ -8,10 +8,8 @@ const BASE_URL = "https://aigfnow.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const reviewsDir = path.join(process.cwd(), "content", "reviews");
-  const blogDir = path.join(process.cwd(), "content", "blog");
-
   const reviews = getPosts(reviewsDir);
-  const blogPosts = getPosts(blogDir);
+  
 
   const ids = Object.keys(platforms);
   const comparePairs: string[] = [];
@@ -23,18 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: BASE_URL, lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
-    { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     ...reviews.map((post) => ({
       url: `${BASE_URL}/reviews/${post.slug}`,
       lastModified: new Date(post.metadata.publishedAt),
       changeFrequency: "monthly" as const,
       priority: 0.9,
-    })),
-    ...blogPosts.map((post) => ({
-      url: `${BASE_URL}/blog/${post.slug}`,
-      lastModified: new Date(post.metadata.publishedAt),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
     })),
     ...comparePairs.map((slug) => ({
       url: `${BASE_URL}/compare/${slug}`,

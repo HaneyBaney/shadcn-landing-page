@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     title: "AI GF Now Blog | Reviews & Comparisons",
     description: "AI companion app reviews and comparisons. Updated monthly.",
   },
+  robots: { index: false, follow: true },
   alternates: {
     canonical: "https://aigfnow.com/blog",
   },
