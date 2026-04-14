@@ -6,6 +6,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { StickyCTA } from "@/components/layout/sticky-cta";
 import { FooterSection } from "@/components/layout/sections/footer";
+import { Analytics } from "@vercel/analytics/next";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
@@ -43,6 +44,7 @@ export default function RootLayout({
 
           <FooterSection />
           <StickyCTA />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
