@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: tag.h1,
     description: tag.description,
+    robots: { index: false, follow: true },
     openGraph: {
       title: tag.h1,
       description: tag.description,

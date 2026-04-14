@@ -25,6 +25,7 @@ export async function generateMetadata({
   return {
     title: post.metadata.title,
     description: post.metadata.summary,
+    robots: { index: false, follow: true },
   };
 }
 

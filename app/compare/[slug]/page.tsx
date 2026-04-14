@@ -55,6 +55,7 @@ export async function generateMetadata({
   return {
     title: `${pair.a.name} vs ${pair.b.name} — Data-Driven Comparison (2026)`,
     description: `${pair.a.name} vs ${pair.b.name} compared on real pricing, feature coverage, and Value Index scores.${scoreSnippet} No opinions — just math.`,
+    robots: { index: false, follow: true },
   };
 }
 
