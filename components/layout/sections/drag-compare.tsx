@@ -697,7 +697,7 @@ function ValueCalculator() {
                       className={`flex items-center gap-3 rounded-xl border-2 px-4 py-3 transition-all ${isTop ? "border-primary/30 bg-primary/5" : "border-border/30"} ${overBudget ? "opacity-30" : ""}`}>
                       <span className={`text-lg font-black font-mono tabular-nums w-6 shrink-0 ${isTop ? "text-primary" : "text-muted-foreground/20"}`}>{i + 1}</span>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={p.logo ?? `https://www.google.com/s2/favicons?domain=${p.domain}&sz=32`} alt="" className="size-6 rounded shrink-0 object-contain" />
+                      <img src={p.logo ?? `https://www.google.com/s2/favicons?domain=${p.domain}&sz=32`} alt={`${p.name} logo`} className="size-6 rounded shrink-0 object-contain" />
                       <div className="flex-1 min-w-0">
                         <p className="text-sm font-bold font-mono truncate">{p.name}</p>
                         <p className="text-xs text-muted-foreground">
@@ -774,9 +774,9 @@ export function DragCompareSection() {
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex -space-x-2">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={pA.logo ?? `https://www.google.com/s2/favicons?domain=${pA.domain}&sz=32`} alt="" className="size-7 rounded-full border-2 border-card object-contain bg-background" />
+                  <img src={pA.logo ?? `https://www.google.com/s2/favicons?domain=${pA.domain}&sz=32`} alt={`${pA.name} logo`} className="size-7 rounded-full border-2 border-card object-contain bg-background" />
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={pB.logo ?? `https://www.google.com/s2/favicons?domain=${pB.domain}&sz=32`} alt="" className="size-7 rounded-full border-2 border-card object-contain bg-background" />
+                  <img src={pB.logo ?? `https://www.google.com/s2/favicons?domain=${pB.domain}&sz=32`} alt={`${pB.name} logo`} className="size-7 rounded-full border-2 border-card object-contain bg-background" />
                 </div>
                 <h4 className="text-base md:text-lg font-bold font-mono text-foreground group-hover:text-primary transition-colors">{card.title}</h4>
               </div>
