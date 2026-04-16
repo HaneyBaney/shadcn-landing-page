@@ -9,7 +9,7 @@ import { getPlatform } from "@/lib/platforms";
 
 export const metadata = {
   title: "AI GF Now — AI Girlfriend Apps Ranked by Value Index™ (2026)",
-  description: "AI girlfriend apps scored by a mathematical formula: feature access × price efficiency. Geometric mean ranking — same method the UN uses for HDI. No opinions, just data.",
+  description: "AI girlfriend apps ranked by feature access × price efficiency. Geometric mean scoring — no opinions, just data from pricing pages.",
   openGraph: {
     type: "website",
     url: "https://aigfnow.com",
