@@ -24,6 +24,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Existing redirects
       {
         source: "/best/unlimited-images",
         destination: "/feature/unlimited-images",
@@ -52,6 +53,67 @@ const nextConfig = {
       {
         source: "/best/cheapest",
         destination: "/feature/cheapest",
+        permanent: true,
+      },
+
+      // Fix Bing 4xx errors — review slugs missing "-review" suffix
+      {
+        source: "/reviews/aiallure",
+        destination: "/reviews/aiallure-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/candy-ai",
+        destination: "/reviews/candy-ai-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/ourdream-ai",
+        destination: "/reviews/ourdream-ai-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/mydreamcompanion",
+        destination: "/reviews/mydreamcompanion-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/gptgirlfriend",
+        destination: "/reviews/gptgirlfriend-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/nectar-ai",
+        destination: "/reviews/nectar-ai-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/secret-desires",
+        destination: "/reviews/secretdesires-review",
+        permanent: true,
+      },
+      {
+        source: "/reviews/secrets-ai",
+        destination: "/",
+        permanent: true,
+      },
+
+      // Fix wrong path prefix (/review/ → /reviews/)
+      {
+        source: "/review/aiallure",
+        destination: "/reviews/aiallure-review",
+        permanent: true,
+      },
+
+      // Index pages that don't exist
+      {
+        source: "/feature",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/hidden-costs",
+        destination: "/hidden-costs/whats-included",
         permanent: true,
       },
     ];
