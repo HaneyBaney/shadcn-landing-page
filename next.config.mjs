@@ -105,6 +105,13 @@ const nextConfig = {
         permanent: true,
       },
 
+      // Old blog post that no longer exists
+      {
+        source: "/blog/spicychat-vs-nectar-ai",
+        destination: "/",
+        permanent: true,
+      },
+
       // Index pages that don't exist
       {
         source: "/feature",
