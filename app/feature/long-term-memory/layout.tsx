@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Girlfriend Apps With Long-Term Memory (2026) — Who Remembers You? | aigfnow.com",
+  title: "AI Girlfriend Long-Term Memory (2026) | aigfnow.com",
   description: "Which AI girlfriend actually remembers your conversations? We tested memory on all 8 platforms. GPTGirlfriend and Secrets AI lead. Here's the full breakdown.",
   openGraph: {
-    title: "AI Girlfriend Apps With Long-Term Memory (2026) — Who Remembers You?",
+    title: "AI Girlfriend Long-Term Memory (2026) | aigfnow.com",
     description: "Which AI girlfriend actually remembers your conversations? We tested memory on all 8 platforms.",
     type: "article",
     url: "https://aigfnow.com/feature/long-term-memory",

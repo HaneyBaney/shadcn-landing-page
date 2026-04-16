@@ -3,10 +3,10 @@ import Link from "next/link";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "AiAllure Live Room Review — We Recorded It. Here's What AI Video Calls Actually Look Like (2026) | aigfnow.com",
+  title: "AiAllure Live Room Review (2026) | aigfnow.com",
   description: "We recorded two AiAllure Live Room sessions so you can see exactly what real-time AI companion video calls look like — lip sync, touch, expressions, voice. No other platform does this.",
   openGraph: {
-    title: "We Recorded AiAllure's Live Room — This Is What AI Video Calls Look Like in 2026",
+    title: "AiAllure Live Room – AI Video Calls Review 2026",
     description: "Real-time lip sync. Touch interaction. Animated expressions. We recorded two 30-minute sessions on April 8, 2026.",
     type: "article",
     url: "https://aigfnow.com/review/aiallure-live-room",

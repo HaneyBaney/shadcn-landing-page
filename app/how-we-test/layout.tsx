@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How We Rank AI Girlfriend Apps — Value Index™ Methodology | aigfnow.com",
+  title: "How We Rank AI Girlfriend Apps | aigfnow.com",
   description: "Our Value Index™ ranks AI girlfriend apps by feature access and pricing using a geometric mean formula. No opinions — just data from official pricing pages, updated monthly.",
   keywords: "AI girlfriend comparison, AI girlfriend pricing, AI companion value, best AI girlfriend app, AI girlfriend subscription cost",
   openGraph: {
-    title: "How We Rank AI Girlfriend Apps — Value Index™ Methodology",
+    title: "How We Rank AI Girlfriend Apps | aigfnow.com",
     description: "The only AI girlfriend comparison that uses math instead of opinions. Feature access ÷ price = your Value Index score.",
     type: "article",
     url: "https://aigfnow.com/how-we-test",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "How We Rank AI Girlfriend Apps — Value Index™ Methodology",
+    title: "How We Rank AI Girlfriend Apps | aigfnow.com",
     description: "The only AI girlfriend comparison that uses math instead of opinions. Feature access ÷ price = your Value Index score.",
     images: ["https://aigfnow.com/hero-image-dark.jpeg"],
   },

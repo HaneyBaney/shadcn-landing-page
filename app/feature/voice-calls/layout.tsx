@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Girlfriend Apps With Voice Calls (2026) — Who Includes It? | aigfnow.com",
+  title: "AI Girlfriend Voice Calls (2026) | aigfnow.com",
   description: "Which AI girlfriend apps include voice calls? Only AiAllure offers unlimited voice. See who caps minutes, who charges credits, and what real-time voice actually sounds like.",
   openGraph: {
-    title: "AI Girlfriend Apps With Voice Calls (2026) — Who Includes It?",
+    title: "AI Girlfriend Voice Calls (2026) | aigfnow.com",
     description: "Which AI girlfriend apps include voice calls? Only AiAllure offers unlimited voice.",
     type: "article",
     url: "https://aigfnow.com/feature/voice-calls",

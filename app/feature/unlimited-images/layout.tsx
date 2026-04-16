@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Girlfriend Apps With Unlimited Images (2026) — No Tokens Needed | aigfnow.com",
+  title: "Unlimited AI Girlfriend Images (2026) | aigfnow.com",
   description: "Only 1 of 8 AI girlfriend apps includes truly unlimited image generation. See which platforms cap images, which use tokens, and what you actually get per month.",
   openGraph: {
-    title: "AI Girlfriend Apps With Unlimited Images (2026) — No Tokens Needed",
+    title: "Unlimited AI Girlfriend Images (2026) | aigfnow.com",
     description: "Only 1 of 8 AI girlfriend apps includes truly unlimited image generation. See which platforms cap images and what you actually get.",
     type: "article",
     url: "https://aigfnow.com/feature/unlimited-images",

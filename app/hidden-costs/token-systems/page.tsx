@@ -3,10 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "AI Girlfriend Token Systems Explained — What Tokens, Coins & Credits Actually Cost (2026) | aigfnow.com",
+  title: "AI Girlfriend Token Costs Explained (2026) | aigfnow.com",
   description: "Tokens, coins, moments, hearts — every AI girlfriend app uses a different currency. We converted them all to real dollar costs so you can see what you're actually paying per image, per voice minute, per video.",
   openGraph: {
-    title: "AI Girlfriend Tokens Explained — What You're Actually Paying Per Image",
+    title: "AI Girlfriend Tokens – Real Cost Per Image (2026)",
     description: "We did the math. Here's what every token, coin, moment, and heart actually costs in real dollars across 8 platforms.",
     type: "article",
     url: "https://aigfnow.com/hidden-costs/token-systems",

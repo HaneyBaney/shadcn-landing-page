@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Girlfriend Apps With No Tokens or Credits (2026) — Flat Rate Plans | aigfnow.com",
+  title: "AI Girlfriend Apps – No Tokens (2026) | aigfnow.com",
   description: "Tired of running out of tokens? Only 1 of 8 AI girlfriend apps offers truly unlimited features with no coin system. See which platforms use credits and which don't.",
   openGraph: {
-    title: "AI Girlfriend Apps With No Tokens or Credits (2026) — Flat Rate Plans",
+    title: "AI Girlfriend Apps – No Tokens (2026) | aigfnow.com",
     description: "Tired of running out of tokens? Only 1 of 8 AI girlfriend apps offers truly unlimited features with no coin system.",
     type: "article",
     url: "https://aigfnow.com/feature/no-tokens",

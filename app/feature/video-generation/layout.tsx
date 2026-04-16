@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Girlfriend Apps With Video (2026) — Who Actually Delivers? | aigfnow.com",
+  title: "AI Girlfriend Apps With Video (2026) | aigfnow.com",
   description: "Video is the most marketed and least delivered feature in AI girlfriend apps. We tested every platform — here's who includes video and what it actually costs.",
   openGraph: {
-    title: "AI Girlfriend Apps With Video (2026) — Who Actually Delivers?",
+    title: "AI Girlfriend Apps With Video (2026) | aigfnow.com",
     description: "Video is the most marketed and least delivered feature. Here's who includes video and what it costs.",
     type: "article",
     url: "https://aigfnow.com/feature/video-generation",
