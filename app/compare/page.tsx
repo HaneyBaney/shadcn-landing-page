@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     title: "Compare AI Girlfriend Apps Side-by-Side (2026)",
     description: "Feature-by-feature comparison of top AI companion platforms.",
   },
+  robots: { index: false, follow: true },
   alternates: {
     canonical: "https://aigfnow.com/compare",
   },

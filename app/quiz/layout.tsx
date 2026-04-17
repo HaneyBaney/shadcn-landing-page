@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: "AI Girlfriend Quiz — Find Your Perfect Match",
     description: "Answer 3 questions, get matched to the best AI companion app for you.",
   },
+  robots: { index: false, follow: true },
   alternates: {
     canonical: "https://aigfnow.com/quiz",
   },
