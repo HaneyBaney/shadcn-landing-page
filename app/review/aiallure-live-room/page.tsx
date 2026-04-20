@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "AiAllure Live Room – AI Video Calls Review 2026",
     description: "Real-time lip sync. Touch interaction. Animated expressions. We recorded two 30-minute sessions on April 8, 2026.",
     type: "article",
-    url: "https://aigfnow.com/review/aiallure-live-room",
+    url: "https://www.aigfnow.com/review/aiallure-live-room",
   },
   twitter: {
     card: "summary_large_image",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "Real-time lip sync, touch interaction, animated expressions. We recorded it.",
   },
   alternates: {
-    canonical: "https://aigfnow.com/review/aiallure-live-room",
+    canonical: "https://www.aigfnow.com/review/aiallure-live-room",
   },
 };
 

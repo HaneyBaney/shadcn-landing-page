@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Find My AI Girlfriend App — Live Platform Matcher",
     description: "Interactive tool that matches you to the best AI companion platform based on your budget and feature priorities.",
     type: "website",
-    url: "https://aigfnow.com/match",
+    url: "https://www.aigfnow.com/match",
   },
   twitter: {
     card: "summary_large_image",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: "Drag sliders to match with the best AI companion for your priorities.",
   },
   alternates: {
-    canonical: "https://aigfnow.com/match",
+    canonical: "https://www.aigfnow.com/match",
   },
 };
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "AI Girlfriend Tokens – Real Cost Per Image (2026)",
     description: "We did the math. Here's what every token, coin, moment, and heart actually costs in real dollars across 8 platforms.",
     type: "article",
-    url: "https://aigfnow.com/hidden-costs/token-systems",
+    url: "https://www.aigfnow.com/hidden-costs/token-systems",
   },
   twitter: {
     card: "summary_large_image",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "What tokens, coins & credits actually cost in real dollars.",
   },
   alternates: {
-    canonical: "https://aigfnow.com/hidden-costs/token-systems",
+    canonical: "https://www.aigfnow.com/hidden-costs/token-systems",
   },
 };
 

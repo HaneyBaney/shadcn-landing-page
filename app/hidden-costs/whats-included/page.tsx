@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "What's Really Included in AI Girlfriend Subscriptions",
     description: "See exactly what you get before tokens and credits start draining your wallet.",
     type: "article",
-    url: "https://aigfnow.com/hidden-costs/whats-included",
+    url: "https://www.aigfnow.com/hidden-costs/whats-included",
   },
   twitter: {
     card: "summary_large_image",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "Feature breakdown before credits kick in.",
   },
   alternates: {
-    canonical: "https://aigfnow.com/hidden-costs/whats-included",
+    canonical: "https://www.aigfnow.com/hidden-costs/whats-included",
   },
 };
 

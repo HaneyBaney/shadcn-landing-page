@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Blog — AI GF Now | Reviews, Comparisons & Guides",
     description: "AI companion app reviews, head-to-head comparisons, and guides. Updated monthly.",
     type: "website",
-    url: "https://aigfnow.com/blog",
+    url: "https://www.aigfnow.com/blog",
   },
   twitter: {
     card: "summary_large_image",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   robots: { index: false, follow: true },
   alternates: {
-    canonical: "https://aigfnow.com/blog",
+    canonical: "https://www.aigfnow.com/blog",
   },
 };
 

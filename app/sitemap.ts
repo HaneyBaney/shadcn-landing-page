@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://aigfnow.com";
+const BASE_URL = "https://www.aigfnow.com";
 
 const STRONG_PAGES = [
   { path: "/", priority: 1.0, freq: "weekly" },

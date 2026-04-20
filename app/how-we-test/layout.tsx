@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     title: "How We Rank AI Girlfriend Apps | aigfnow.com",
     description: "The only AI girlfriend comparison that uses math instead of opinions. Feature access ÷ price = your Value Index score.",
     type: "article",
-    url: "https://aigfnow.com/how-we-test",
+    url: "https://www.aigfnow.com/how-we-test",
     siteName: "aigfnow.com",
     images: [
       {
-        url: "https://aigfnow.com/hero-image-dark.jpeg",
+        url: "https://www.aigfnow.com/hero-image-dark.jpeg",
         width: 1200,
         height: 630,
         alt: "AI GF Now - Value Index Methodology",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     ],
     videos: [
       {
-        url: "https://aigfnow.com/videos/methodology-video..mp4",
+        url: "https://www.aigfnow.com/videos/methodology-video..mp4",
         type: "video/mp4",
         width: 1920,
         height: 1080,
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "How We Rank AI Girlfriend Apps | aigfnow.com",
     description: "The only AI girlfriend comparison that uses math instead of opinions. Feature access ÷ price = your Value Index score.",
-    images: ["https://aigfnow.com/hero-image-dark.jpeg"],
+    images: ["https://www.aigfnow.com/hero-image-dark.jpeg"],
   },
   alternates: {
-    canonical: "https://aigfnow.com/how-we-test",
+    canonical: "https://www.aigfnow.com/how-we-test",
   },
 };
 

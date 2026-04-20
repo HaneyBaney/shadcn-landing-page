@@ -12,7 +12,7 @@ export const metadata = {
   description: "AI girlfriend apps ranked by feature access × price efficiency. Geometric mean scoring — no opinions, just data from pricing pages.",
   openGraph: {
     type: "website",
-    url: "https://aigfnow.com",
+    url: "https://www.aigfnow.com",
     title: "AI GF Now — AI Girlfriend Apps Ranked by Value Index™ (2026)",
     description: "AI girlfriend apps scored by a mathematical formula: feature access × price efficiency. Geometric mean ranking — same method the UN uses for HDI.",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     description: "Mathematical scoring of AI girlfriend apps. Feature access × price efficiency. No opinions, just data from pricing pages.",
   },
   alternates: {
-    canonical: "https://aigfnow.com",
+    canonical: "https://www.aigfnow.com",
   },
 };
 

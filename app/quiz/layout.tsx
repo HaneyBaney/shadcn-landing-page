@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "AI Girlfriend Quiz — Find Your Perfect Match in 30 Seconds",
     description: "Quick quiz to find the best AI companion app for your priorities. Takes 30 seconds.",
     type: "website",
-    url: "https://aigfnow.com/quiz",
+    url: "https://www.aigfnow.com/quiz",
   },
   twitter: {
     card: "summary_large_image",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   robots: { index: false, follow: true },
   alternates: {
-    canonical: "https://aigfnow.com/quiz",
+    canonical: "https://www.aigfnow.com/quiz",
   },
 };
 

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     title: "Cheapest AI Girlfriend Apps 2026 — Real Prices Tested",
     description: "All 8 AI girlfriend apps sorted by actual monthly cost. Candy AI $3.99/mo cheapest, AiAllure $9.90/mo best value.",
     type: "article",
-    url: "https://aigfnow.com/feature/cheapest",
+    url: "https://www.aigfnow.com/feature/cheapest",
     siteName: "aigfnow.com",
     images: [
       {
-        url: "https://aigfnow.com/hero-image-dark.jpeg",
+        url: "https://www.aigfnow.com/hero-image-dark.jpeg",
         width: 1200,
         height: 630,
         alt: "Cheapest AI Girlfriend Apps 2026",
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cheapest AI Girlfriend Apps 2026 — Real Prices Tested",
     description: "All 8 AI girlfriend apps sorted by actual monthly cost. Tested with real accounts.",
-    images: ["https://aigfnow.com/hero-image-dark.jpeg"],
+    images: ["https://www.aigfnow.com/hero-image-dark.jpeg"],
   },
   alternates: {
-    canonical: "https://aigfnow.com/feature/cheapest",
+    canonical: "https://www.aigfnow.com/feature/cheapest",
   },
 };
 

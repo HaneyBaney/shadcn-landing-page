@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Compare AI Girlfriend Apps Side-by-Side (2026)",
     description: "Feature-by-feature comparison of top AI companion platforms.",
     type: "website",
-    url: "https://aigfnow.com/compare",
+    url: "https://www.aigfnow.com/compare",
   },
   twitter: {
     card: "summary_large_image",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   robots: { index: false, follow: true },
   alternates: {
-    canonical: "https://aigfnow.com/compare",
+    canonical: "https://www.aigfnow.com/compare",
   },
 };
 
