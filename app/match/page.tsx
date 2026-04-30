@@ -78,7 +78,7 @@ const PLATFORMS: Platform[] = [
     tagTypes: ["green", "orange"],
     noTokens: false,
     liveRoom: false,
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     meta: "One coin pool for everything · Simpler pricing model",
     logo: "/logos/ourdream-ai.png",
     domain: "ourdreamersai.com",

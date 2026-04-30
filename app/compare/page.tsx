@@ -53,7 +53,7 @@ const topPlatforms = [
     tagline: "All-in-one plan",
     price: "$9.99/mo",
     features: ["200 images/mo", "20 min voice", "10 videos", "Unlimited chat"],
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     badge: "Best Overall",
   },
   {

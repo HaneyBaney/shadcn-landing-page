@@ -253,7 +253,7 @@ const MIDRANGE_PLATFORMS: Platform[] = [
     priceYearly: "$9.99",
     priceMonthly: "$19.99",
     valueIndex: 77,
-    affiliateUrl: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    affiliateUrl: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     featured: false,
     primaryCta: false,
     ...PLATFORM_LOGOS["ourdream-ai"],

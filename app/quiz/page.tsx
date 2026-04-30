@@ -66,7 +66,7 @@ const results: Record<Answer, Result> = {
     platform: "OurDream AI",
     tagline: "All-in-one plan",
     reason: "You want a balanced experience. OurDream gives you chat, images, voice, and video in one subscription.",
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     badge: "Best Overall",
   },
   budget: {
@@ -87,7 +87,7 @@ const results: Record<Answer, Result> = {
     platform: "OurDream AI",
     tagline: "10 video clips included",
     reason: "You want video content. OurDream includes 10 video clips per month in the base plan.",
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     badge: "Best for Video",
   },
 };

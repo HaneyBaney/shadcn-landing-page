@@ -57,7 +57,7 @@ export const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <Button asChild size="lg" className="font-bold font-mono group/arrow">
-                <a href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172" target="_blank" rel="noopener noreferrer">
                   Meet Your Match
                   <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
                 </a>

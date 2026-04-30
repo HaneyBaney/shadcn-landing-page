@@ -29,7 +29,7 @@ const platforms = [
     included: ["Unlimited chat", "200 images/mo", "20 min voice", "10 video clips"],
     notIncluded: ["Extra images cost DreamCoins", "Extra voice costs DreamCoins"],
     verdict: "Best all-in-one value",
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
   },
   {
     name: "AiAllure",

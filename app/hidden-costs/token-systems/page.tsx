@@ -66,7 +66,7 @@ const PLATFORMS: PlatformData[] = [
       { action: "1 video clip", tokens: "~50 coins", dollars: "~$0.50", type: "dollars" },
     ],
     topup: "$4.99 for 500 DreamCoins. Most users stay within limits if they don't go heavy on video.",
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     logo: "/logos/ourdream-ai.png",
     domain: "ourdreamersai.com",
   },

@@ -7,7 +7,7 @@ export type FeatureKey = "images" | "voice" | "video" | "memory" | "chat";
 
 // ── AFFILIATE LINKS — Real tracking URLs ─────────────────────────────────
 export const AFFILIATE_LINKS: Record<string, string> = {
-  "ourdream-ai":      "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+  "ourdream-ai":      "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
   "candy-ai":         "https://t.crjmpx.com/389267/9022/39453?aff_sub5=SF_006OG000004lmDN",
   "gptgirlfriend":    "https://www.gptgirlfriend.online/?ref=mgi4mjj",
   "secrets-ai":       "https://t.vlmai-1.com/389267/10381/0?aff_sub5=SF_006OG000004lmDN",

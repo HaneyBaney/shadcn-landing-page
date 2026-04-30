@@ -89,7 +89,7 @@ export const platforms: PlatformData[] = [
     meta: {
       slug: "ourdream-ai",
       name: "OurDream AI",
-      affiliateUrl: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+      affiliateUrl: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
       websiteUrl: "https://ourdreamersai.com",
       badge: "Best Overall",
       description:

@@ -18,7 +18,7 @@ interface Platform {
 
 const platforms: Platform[] = [
   { name: "AiAllure", rating: 4.9, price: "$16.40/mo", chat: 4, video: 5, memory: 4, free: true, best: true, url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow", tag: "#1 Ranked" },
-  { name: "OurDream AI", rating: 4.8, price: "$12.99/mo", chat: 4, video: 4, memory: 4, free: true, url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2", tag: "Best Overall" },
+  { name: "OurDream AI", rating: 4.8, price: "$12.99/mo", chat: 4, video: 4, memory: 4, free: true, url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172", tag: "Best Overall" },
   { name: "GPTGirlfriend", rating: 4.7, price: "$15/mo", chat: 5, video: 3, memory: 4, free: true, url: "https://www.gptgirlfriend.online/?ref=mgi4mjj", tag: "Best Chat" },
   { name: "Candy AI", rating: 4.6, price: "$5.99/mo", chat: 3, video: 3, memory: 3, free: true, url: "https://t.crjmpx.com/389267/9022/39453?aff_sub5=SF_006OG000004lmDN", tag: "Best Value" },
   { name: "MyDreamCompanion", rating: 4.5, price: "$5.84/mo", chat: 3, video: 3, memory: 4, free: false, url: "https://www.mydreamcompanion.com/?linkId=lp_645321&sourceId=11754648&tenantId=dreamcompanion" },

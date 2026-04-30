@@ -33,7 +33,7 @@ export const CommunitySection = () => {
             <CardFooter className="gap-4 flex-col sm:flex-row">
               <Button asChild className="font-bold font-mono group/arrow">
                 <a
-                  href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2"
+                  href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

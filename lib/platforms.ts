@@ -34,7 +34,7 @@ export const platforms: Record<string, Platform> = {
     priceMonthly: "$19.99",
     subMonthly: 19.99,
     subYearly: 9.99,
-    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2",
+    url: "https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172",
     domain: "ourdreamersai.com",
     logo: "/logos/ourdream-ai.png",
     features: { chat: 5, video: 4, voice: 5, memory: 4, images: 4 },

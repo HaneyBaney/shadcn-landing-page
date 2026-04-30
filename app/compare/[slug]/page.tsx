@@ -333,7 +333,7 @@ export default function ComparePage({
                 It bundles chat, images, voice, and video in one plan at $9.99/mo yearly.
               </p>
               <Button asChild size="sm" className="font-bold font-mono group/arrow">
-                <a href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172" target="_blank" rel="noopener noreferrer">
                   Try OurDream AI
                   <ArrowRight className="size-3.5 ml-1 group-hover/arrow:translate-x-1 transition-transform" />
                 </a>

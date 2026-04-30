@@ -62,7 +62,7 @@ export default function BlogPost({
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button asChild className="font-bold group/arrow">
             <a
-              href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=2"
+              href="https://www.ourdreamersai.com/3D6C519/2CTPL/?uid=172"
               target="_blank"
               rel="noopener noreferrer"
             >
