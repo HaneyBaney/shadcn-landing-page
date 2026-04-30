@@ -87,7 +87,7 @@ export const platforms: Record<string, Platform> = {
     priceMonthly: "$19.90",
     subMonthly: 19.90,
     subYearly: 9.90,
-    url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    url: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     domain: "aiallure.ai",
     logo: "/logos/aiallure.png",
     features: { chat: 3, video: 5, voice: 5, memory: 4, images: 5 },

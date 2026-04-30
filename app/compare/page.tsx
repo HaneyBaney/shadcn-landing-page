@@ -61,7 +61,7 @@ const topPlatforms = [
     tagline: "Unlimited images + voice",
     price: "$9.90/mo",
     features: ["Unlimited images", "Unlimited voice", "Live Rooms", "Short clips free"],
-    url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    url: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     badge: "Best Visuals",
   },
   {

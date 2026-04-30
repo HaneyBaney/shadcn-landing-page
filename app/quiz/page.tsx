@@ -59,7 +59,7 @@ const results: Record<Answer, Result> = {
     platform: "AiAllure",
     tagline: "Unlimited images + voice included",
     reason: "You want visuals without limits. AiAllure includes unlimited image generation in the base plan.",
-    url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    url: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     badge: "Best Visuals",
   },
   chat: {

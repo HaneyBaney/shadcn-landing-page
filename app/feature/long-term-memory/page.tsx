@@ -116,7 +116,7 @@ const DEEP_MEMORY: Platform[] = [
     priceYearly: "$9.90",
     priceMonthly: "$19.90",
     valueIndex: 84,
-    affiliateUrl: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    affiliateUrl: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     featured: false,
     primaryCta: false,
     ...PLATFORM_LOGOS["aiallure"],

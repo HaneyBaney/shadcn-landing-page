@@ -52,7 +52,7 @@ export const StickyCTA = () => {
           <div className="flex items-center gap-2">
             <Button asChild size="sm" className="font-bold group/arrow whitespace-nowrap">
               <a
-                href="https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow"
+                href="https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln"
                 target="_blank"
                 rel="noopener noreferrer"
               >

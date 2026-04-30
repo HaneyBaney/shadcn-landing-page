@@ -44,7 +44,7 @@ export const platforms: PlatformData[] = [
     meta: {
       slug: "aiallure",
       name: "AiAllure",
-      affiliateUrl: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+      affiliateUrl: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
       websiteUrl: "https://aiallure.ai",
       badge: "Best Visuals",
       description:

@@ -50,7 +50,7 @@ const PLATFORMS: PlatformData[] = [
     ],
     topup: "AllureCoins only needed for long-form video generation and vault upgrades. Core features are truly unlimited.",
     highlight: true,
-    url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    url: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     logo: "/logos/aiallure.png",
     domain: "aiallure.ai",
   },

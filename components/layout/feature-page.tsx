@@ -13,7 +13,7 @@ export const AFFILIATE_LINKS: Record<string, string> = {
   "secrets-ai":       "https://t.vlmai-1.com/389267/10381/0?aff_sub5=SF_006OG000004lmDN",
   "secret-desires":   "https://secretdesires.ai?via=hana64",
   "mydreamcompanion": "https://www.mydreamcompanion.com/?linkId=lp_645321&sourceId=11754648&tenantId=dreamcompanion",
-  "aiallure":         "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+  "aiallure":         "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
   "nectar-ai":        "https://nectar.ai/?_ef_transaction_id=&oid=1&affid=51",
 };
 

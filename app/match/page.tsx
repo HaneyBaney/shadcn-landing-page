@@ -41,7 +41,7 @@ const PLATFORMS: Platform[] = [
     tagTypes: ["green", "green", "accent"],
     noTokens: true,
     liveRoom: true,
-    url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    url: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     meta: "Unlimited images + voice · Live Room · Best visuals",
     logo: "/logos/aiallure.png",
     domain: "aiallure.ai",

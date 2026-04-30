@@ -37,7 +37,7 @@ const platforms = [
     included: ["Unlimited chat", "Unlimited images", "Unlimited voice", "Short video clips"],
     notIncluded: ["Longer videos cost AllureCoins", "Live Rooms have limits"],
     verdict: "Best for images & voice",
-    url: "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    url: "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
   },
   {
     name: "Candy AI",
