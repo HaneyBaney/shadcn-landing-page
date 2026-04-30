@@ -81,7 +81,7 @@ const productSchema = {
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow",
+    "url": "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
     "price": "9.90",
     "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
@@ -217,7 +217,7 @@ export default function AiAllureLiveRoomReview() {
           </p>
 
           <a
-            href="https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow"
+            href="https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln"
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 text-base font-bold px-8 py-4 rounded-full bg-foreground text-amber-400 hover:opacity-90 transition-opacity shadow-lg"
@@ -274,7 +274,7 @@ export default function AiAllureLiveRoomReview() {
             <p className="text-sm text-muted-foreground">Live Room is included free with every Pro membership. No extra fees.</p>
           </div>
           <a
-            href="https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow"
+            href="https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln"
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 text-sm font-bold px-7 py-3 rounded-full bg-amber-400 text-foreground hover:shadow-lg transition-shadow whitespace-nowrap"
@@ -354,7 +354,7 @@ export default function AiAllureLiveRoomReview() {
             <p className="text-sm text-muted-foreground">Unlimited chat, images, voice, and Live Room. No per-use costs.</p>
           </div>
           <a
-            href="https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow"
+            href="https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln"
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 text-sm font-bold px-7 py-3 rounded-full bg-amber-400 text-foreground hover:shadow-lg transition-shadow whitespace-nowrap"
@@ -448,7 +448,7 @@ export default function AiAllureLiveRoomReview() {
           </div>
 
           <a
-            href="https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow"
+            href="https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln"
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 text-lg font-bold px-12 py-4 rounded-full bg-foreground text-amber-400 hover:opacity-90 transition-opacity shadow-lg"
@@ -501,7 +501,7 @@ export default function AiAllureLiveRoomReview() {
             <p className="text-sm text-muted-foreground">Free plan available. See the Live Room yourself.</p>
           </div>
           <a
-            href="https://www.aiallure.com/?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln&sub1=aigfnow"
+            href="https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln"
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 text-sm font-bold px-7 py-3 rounded-full bg-amber-400 text-foreground hover:shadow-lg transition-shadow whitespace-nowrap"
