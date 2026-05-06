@@ -209,7 +209,7 @@ function ValueIndexExplainer() {
                     <p><span className="text-[#f97583]">#5</span> GPTGirlfriend — 60 (0 unlimited · 3 capped · 2 credits)</p>
                     <p><span className="text-[#f97583]">#6</span> Candy AI — 56 (1 unlimited · 1 capped · 3 credits)</p>
                     <p><span className="text-[#f97583]">#7</span> MyDreamCompanion — 51 (0 unlimited · 2 capped · 3 credits)</p>
-                    <p><span className="text-[#f97583]">#8</span> Secret Desires — 50 (1 unlimited · 1 capped · 2 credits)</p>
+                    <p><span className="text-[#f97583]">#8</span> LoveScape — 50 (1 unlimited · 1 capped · 2 credits)</p>
                   </div>
                 </div>
 
@@ -337,11 +337,11 @@ const CARD_CONTENT: Record<string, {
     bestFor: ["Chat-first users", "Memory-focused interactions", "Not for media-heavy use"],
     notIdealFor: ["Heavy media users", "Users wanting included media", "Budget-conscious users"],
   },
-  "secret-desires": {
-    verdict: "Chat-focused with hearts system — unlimited base chat, but images/voice cost hearts",
-    priceNote: "$7.99/mo — unlimited chat, hearts for images/voice",
-    bestFor: ["Chat-focused users", "Guided scenarios", "Base chat unlimited"],
-    notIdealFor: ["Users wanting unlimited images", "Video generation (not available)", "Heavy media users"],
+  "lovescape": {
+    verdict: "Unlimited chat + characters. 600 chips/mo for images, video, voice.",
+    priceNote: "$19.99/mo ($7.80/mo annual) — 600 chips/mo for media",
+    bestFor: ["Scenario roleplay", "Character creation", "NSFW content"],
+    notIdealFor: ["Heavy media users", "Users wanting unlimited media"],
   },
   "nectar-ai": {
     verdict: "Daily-limited images + capped messaging — credits unlock advanced features",
@@ -360,7 +360,7 @@ const TREND_DATA: Record<string, { points: number[]; change: number }> = {
   "aiallure":       { points: [12, 18, 25, 34, 45, 58], change: +383 },
   "mydreamcompanion": { points: [8, 12, 18, 22, 28, 35], change: +338 },
   "fantasygf":      { points: [40, 38, 42, 40, 38, 36], change: -10 },
-  "secret-desires": { points: [15, 14, 16, 18, 20, 22], change: +47 },
+  "lovescape": { points: [15, 14, 16, 18, 20, 22], change: +47 },
   "spicychat-ai":   { points: [50, 52, 48, 45, 42, 40], change: -20 },
   "nectar-ai":      { points: [20, 22, 25, 24, 26, 28], change: +40 },
   "secrets-ai":    { points: [10, 18, 28, 40, 55, 72], change: +620 },

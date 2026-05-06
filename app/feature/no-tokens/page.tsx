@@ -54,7 +54,7 @@ const PLATFORM_LOGOS: Record<string, { logo?: string; domain: string }> = {
   "gptgirlfriend": { domain: "gptgirlfriend.online" },
   "candy-ai": { domain: "candy.ai" },
   "mydreamcompanion": { domain: "mydreamcompanion.com" },
-  "secret-desires": { logo: "/logos/faviconV2.png", domain: "secret-desires.ai" },
+  "lovescape": { logo: "/logos/lovescape.png", domain: "lovescape.com" },
 };
 
 const TOKEN_FREE: Platform[] = [
@@ -208,24 +208,24 @@ const TOKEN_SYSTEMS: Platform[] = [
     ...PLATFORM_LOGOS["mydreamcompanion"],
   },
   {
-    id: "secret-desires",
-    name: "Secret Desires AI",
+    id: "lovescape",
+    name: "LoveScape",
     rank: "8",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,
-    description: "Hearts for images and voice. No video at all. Unlimited chat is the only truly flat-rate feature. Hearts deplete quickly on media use.",
+    description: "600 chips/mo for images, video, voice. Unlimited chat included. $19.99/mo ($7.80/mo annual).",
     features: [
-      { text: "Hearts — images + voice", type: "credits" },
+      { text: "Chips — images + voice + video", type: "credits" },
       { text: "✓ Unlimited chat", type: "included" },
       { text: "Memory — standard", type: "capped" },
     ],
-    priceYearly: "$6.67",
-    priceMonthly: "$7.99",
+    priceYearly: "$7.80",
+    priceMonthly: "$19.99",
     valueIndex: 50,
-    affiliateUrl: "https://secretdesires.ai?via=hana64",
+    affiliateUrl: "https://t.vlmai-1.com/389267/10224/0?aff_sub5=SF_006OG000004lmDN",
     featured: false,
     primaryCta: false,
-    ...PLATFORM_LOGOS["secret-desires"],
+    ...PLATFORM_LOGOS["lovescape"],
   },
 ];
 

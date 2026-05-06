@@ -54,7 +54,7 @@ const PLATFORM_LOGOS: Record<string, { logo?: string; domain: string }> = {
   "gptgirlfriend": { domain: "gptgirlfriend.online" },
   "candy-ai": { domain: "candy.ai" },
   "mydreamcompanion": { domain: "mydreamcompanion.com" },
-  "secret-desires": { logo: "/logos/faviconV2.png", domain: "secret-desires.ai" },
+  "lovescape": { logo: "/logos/lovescape.png", domain: "lovescape.com" },
 };
 
 const DEEP_MEMORY: Platform[] = [
@@ -165,24 +165,24 @@ const STANDARD_MEMORY: Platform[] = [
     ...PLATFORM_LOGOS["mydreamcompanion"],
   },
   {
-    id: "secret-desires",
-    name: "Secret Desires AI",
+    id: "lovescape",
+    name: "LoveScape",
     rank: "6",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,
-    description: "Standard memory in a chat-focused package. Remembers key details but depth is limited. The guided scenario system compensates somewhat by keeping conversations structured.",
+    description: "Standard memory with 600 chips/mo for images, video, voice. Unlimited chat included. $19.99/mo ($7.80/mo annual).",
     features: [
       { text: "Memory — standard", type: "capped" },
       { text: "✓ Unlimited chat", type: "included" },
-      { text: "Images: hearts", type: "credits" },
+      { text: "Images: chips", type: "credits" },
     ],
-    priceYearly: "$6.67",
-    priceMonthly: "$7.99",
+    priceYearly: "$7.80",
+    priceMonthly: "$19.99",
     valueIndex: 50,
-    affiliateUrl: "https://secretdesires.ai?via=hana64",
+    affiliateUrl: "https://t.vlmai-1.com/389267/10224/0?aff_sub5=SF_006OG000004lmDN",
     featured: false,
     primaryCta: false,
-    ...PLATFORM_LOGOS["secret-desires"],
+    ...PLATFORM_LOGOS["lovescape"],
   },
 ];
 

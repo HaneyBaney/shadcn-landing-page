@@ -33,7 +33,7 @@ const faqSchema = {
       "name": "What is the cheapest AI girlfriend app in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Candy AI at $3.99/month (annual) is cheapest with unlimited chat + 100 tokens. Nectar AI is $4.99/mo yearly with 100 images/day. MyDreamCompanion is $5.84/mo yearly. Secret Desires AI is $6.67/mo yearly."
+        "text": "Candy AI at $3.99/month (annual) is cheapest with unlimited chat + 100 tokens. Nectar AI is $4.99/mo yearly with 100 images/day. MyDreamCompanion is $5.84/mo yearly. LoveScape is $7.80/mo yearly."
       }
     },
     {
@@ -72,7 +72,7 @@ const PLATFORM_LOGOS: Record<string, { logo?: string; domain: string }> = {
   "gptgirlfriend": { domain: "gptgirlfriend.online" },
   "candy-ai": { domain: "candy.ai" },
   "mydreamcompanion": { domain: "mydreamcompanion.com" },
-  "secret-desires": { logo: "/logos/faviconV2.png", domain: "secret-desires.ai" },
+  "lovescape": { logo: "/logos/lovescape.png", domain: "lovescape.com" },
 };
 
 // Platform data - sorted by yearly price ascending
@@ -144,26 +144,26 @@ const BUDGET_PLATFORMS: Platform[] = [
     ...PLATFORM_LOGOS["mydreamcompanion"],
   },
   {
-    id: "secret-desires",
-    name: "Secret Desires AI",
+    id: "lovescape",
+    name: "LoveScape",
     rank: "4",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,
-    description: "Chat-focused platform — $6.67/mo yearly ($79.99/yr). Unlimited chat, hearts system for images/voice. No video generation at all. Good for chat-first users.",
+    description: "600 chips/mo for images, video, voice. Unlimited chat included. $19.99/mo ($7.80/mo annual).",
     features: [
       { text: "✓ Unlimited chat", type: "included" },
       { text: "Memory — standard", type: "capped" },
-      { text: "Images: hearts", type: "credits" },
-      { text: "Voice: hearts", type: "credits" },
-      { text: "No video", type: "none" },
+      { text: "Images: chips", type: "credits" },
+      { text: "Voice: chips", type: "credits" },
+      { text: "Video: chips", type: "credits" },
     ],
-    priceYearly: "$6.67",
-    priceMonthly: "$7.99",
+    priceYearly: "$7.80",
+    priceMonthly: "$19.99",
     valueIndex: 50,
-    affiliateUrl: "https://secretdesires.ai?via=hana64",
+    affiliateUrl: "https://t.vlmai-1.com/389267/10224/0?aff_sub5=SF_006OG000004lmDN",
     featured: false,
     primaryCta: false,
-    ...PLATFORM_LOGOS["secret-desires"],
+    ...PLATFORM_LOGOS["lovescape"],
   },
 ];
 

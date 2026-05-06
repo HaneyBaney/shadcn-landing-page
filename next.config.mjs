@@ -89,7 +89,7 @@ const nextConfig = {
       },
       {
         source: "/reviews/secret-desires",
-        destination: "/reviews/secretdesires-review",
+        destination: "/reviews/lovescape-review",
         permanent: true,
       },
       {

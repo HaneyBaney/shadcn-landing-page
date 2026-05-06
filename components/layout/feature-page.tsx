@@ -11,7 +11,7 @@ export const AFFILIATE_LINKS: Record<string, string> = {
   "candy-ai":         "https://t.crjmpx.com/389267/9022/39453?aff_sub5=SF_006OG000004lmDN",
   "gptgirlfriend":    "https://www.gptgirlfriend.online/?ref=mgi4mjj",
   "secrets-ai":       "https://t.vlmai-1.com/389267/10381/0?aff_sub5=SF_006OG000004lmDN",
-  "secret-desires":   "https://secretdesires.ai?via=hana64",
+  "lovescape":       "https://t.vlmai-1.com/389267/10224/0?aff_sub5=SF_006OG000004lmDN",
   "mydreamcompanion": "https://www.mydreamcompanion.com/?linkId=lp_645321&sourceId=11754648&tenantId=dreamcompanion",
   "aiallure":         "https://www.aiallure.com/landing/c2ae4697-119e-4f5e-a63b-77a03554ad21?ref=2dUtCeDi0MF8kaakyQMtNjC11Ln",
   "nectar-ai":        "https://nectar.ai/?_ef_transaction_id=&oid=1&affid=51",
@@ -24,7 +24,7 @@ export const AFFILIATE_LINKS: Record<string, string> = {
 export const PLATFORM_LOGOS: Record<string, string> = {
   "ourdream-ai":      "/logos/ourdream-ai.png",
   "aiallure":         "/logos/aiallure.png",
-  "secret-desires":   "/logos/faviconV2.png",
+  "lovescape":       "/logos/lovescape.png",
   // "candy-ai":         "", // No logo defined in lib/platforms.ts
   // "gptgirlfriend":    "", // No logo defined in lib/platforms.ts
   // "secrets-ai":       "", // No logo defined in lib/platforms.ts
@@ -39,7 +39,7 @@ export const PLATFORM_NAMES: Record<string, string> = {
   "gptgirlfriend":    "GPTGirlfriend",
   "secrets-ai":       "Secrets AI",
   "nectar-ai":        "Nectar AI",
-  "secret-desires":   "Secret Desires",
+  "lovescape":       "LoveScape",
   "mydreamcompanion": "MyDreamCompanion",
 };
 
@@ -50,7 +50,7 @@ const PLATFORM_COLORS: Record<string, string> = {
   "gptgirlfriend":    "#10B981",
   "secrets-ai":       "#3B82F6",
   "nectar-ai":        "#EF4444",
-  "secret-desires":   "#8B5CF6",
+  "lovescape":       "#8B5CF6",
   "mydreamcompanion": "#06B6D4",
 };
 
