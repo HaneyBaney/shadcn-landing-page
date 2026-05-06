@@ -8,13 +8,13 @@ import { rankedPlatforms } from "@/data/ranked-platforms";
 import { getPlatform } from "@/lib/platforms";
 
 export const metadata = {
-  title: "AI GF Now — AI Girlfriend Apps Ranked by Value Index™ (2026)",
-  description: "AI girlfriend apps ranked by feature access × price efficiency. Geometric mean scoring — no opinions, just data from pricing pages.",
+  title: "AI Girlfriend Apps 2026 — Ranked by Value Index | AI GF Now",
+  description: "AiAllure ranks #1 of 8 AI girlfriend apps tested in 2026 by feature access and price. See the full Value Index ranking — no sponsorships, just data.",
   openGraph: {
     type: "website",
     url: "https://www.aigfnow.com",
-    title: "AI GF Now — AI Girlfriend Apps Ranked by Value Index™ (2026)",
-    description: "AI girlfriend apps scored by a mathematical formula: feature access × price efficiency. Geometric mean ranking — same method the UN uses for HDI.",
+    title: "AI Girlfriend Apps 2026 — Ranked by Value Index | AI GF Now",
+    description: "AiAllure ranks #1 of 8 AI girlfriend apps tested in 2026 by feature access and price. See the full Value Index ranking — no sponsorships, just data.",
     images: [
       {
         url: "/og-image.jpg",
@@ -26,8 +26,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI GF Now — AI Girlfriend Apps Ranked by Value Index™ (2026)",
-    description: "Mathematical scoring of AI girlfriend apps. Feature access × price efficiency. No opinions, just data from pricing pages.",
+    title: "AI Girlfriend Apps 2026 — Ranked by Value Index | AI GF Now",
+    description: "AiAllure ranks #1 of 8 AI girlfriend apps tested in 2026 by feature access and price. See the full Value Index ranking — no sponsorships, just data.",
   },
   alternates: {
     canonical: "https://www.aigfnow.com",
