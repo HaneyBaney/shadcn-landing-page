@@ -24,7 +24,7 @@ const platforms: Platform[] = [
   { name: "MyDreamCompanion", rating: 4.5, price: "$5.84/mo", chat: 3, video: 3, memory: 4, free: false, url: "https://www.mydreamcompanion.com/?linkId=lp_645321&sourceId=11754648&tenantId=dreamcompanion" },
     { name: "FantasyGF", rating: 4.3, price: "$9.99/mo", chat: 3, video: 3, memory: 2, free: true, url: "https://fantasygf.ai/?via=hana91", tag: "Best Roleplay" },
   { name: "SpicyChat AI", rating: 4.2, price: "Free", chat: 4, video: 1, memory: 2, free: true, url: "https://spicychat.ai/?ref=mwrioda", tag: "Most Characters" },
-  { name: "Secret Desires", rating: 4.1, price: "$9.99/mo", chat: 3, video: 2, memory: 2, free: false, url: "https://secretdesires.ai?via=hana64", tag: "Most Private" },
+  { name: "Lovescape", rating: 4.0, price: "$19.99/mo", chat: 4, video: 2, memory: 3, free: false, url: "https://t.vlmai-1.com/389267/10224/0?aff_sub5=SF_006OG000004lmDN", tag: "Best for Chat" },
 ];
 
 const DotRating = ({ score, max = 5 }: { score: number; max?: number }) => (

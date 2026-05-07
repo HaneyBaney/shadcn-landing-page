@@ -132,7 +132,7 @@ const PLATFORMS: PlatformData[] = [
   },
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     currency: "Chips",
     currencyType: "token",
     included: "Unlimited chat + characters. 600 chips/mo for images, video, voice.",

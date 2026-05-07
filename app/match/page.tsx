@@ -121,7 +121,7 @@ const PLATFORMS: Platform[] = [
   },
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     price: 7.80,
     priceMonthly: 19.99,
     vi: 50,

@@ -12,7 +12,7 @@ const platformLogos: { name: string; logo: string }[] = [
   { name: "MyDreamCompanion",  logo: "https://www.google.com/s2/favicons?domain=mydreamcompanion.com&sz=64" },
     { name: "FantasyGF",         logo: "https://www.google.com/s2/favicons?domain=fantasygf.ai&sz=64" },
   { name: "SpicyChat AI",      logo: "https://www.google.com/s2/favicons?domain=spicychat.ai&sz=64" },
-  { name: "Secret Desires",    logo: "https://www.google.com/s2/favicons?domain=secretdesires.ai&sz=64" },
+  { name: "Lovescape", logo: "https://www.google.com/s2/favicons?domain=lovescape.com&sz=64" },
   { name: "Nectar AI",         logo: "https://www.google.com/s2/favicons?domain=nectar.ai&sz=64" },
 ];
 

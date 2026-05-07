@@ -166,9 +166,9 @@ export const platforms: Record<string, Platform> = {
   },
   "lovescape": {
     id: "lovescape",
-    name: "LoveScape",
-    hook: "Scenario roleplay",
-    rating: 4.6,
+    name: "Lovescape",
+    hook: "Chat + 600 chips",
+    rating: 4.0,
     price: "$7.80/mo yearly",
     priceMonthly: "$19.99",
     subMonthly: 19.99,

@@ -33,7 +33,7 @@ const faqSchema = {
       "name": "What is the cheapest AI girlfriend app in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Candy AI at $3.99/month (annual) is cheapest with unlimited chat + 100 tokens. Nectar AI is $4.99/mo yearly with 100 images/day. MyDreamCompanion is $5.84/mo yearly. LoveScape is $7.80/mo yearly."
+        "text": "Candy AI at $3.99/month (annual) is cheapest with unlimited chat + 100 tokens. Nectar AI is $4.99/mo yearly with 100 images/day. MyDreamCompanion is $5.84/mo yearly. Lovescape is $7.80/mo yearly."
       }
     },
     {
@@ -145,7 +145,7 @@ const BUDGET_PLATFORMS: Platform[] = [
   },
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     rank: "4",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,

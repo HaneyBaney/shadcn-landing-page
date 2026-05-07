@@ -4,10 +4,10 @@ export const platforms: PlatformData[] = [
   {
     meta: {
       slug: "lovescape",
-      name: "LoveScape",
+      name: "Lovescape",
       affiliateUrl: "https://t.vlmai-1.com/389267/10224/0?aff_sub5=SF_006OG000004lmDN",
       websiteUrl: "https://lovescape.com",
-      badge: "Best for Scenarios",
+      badge: "Best for Chat-First Users",
       description: "Unlimited chat + characters. 600 chips/mo for images, video, voice.",
       bestFor: ["Scenario roleplay", "Character creation", "NSFW content"],
       notIdealFor: ["Heavy media users", "Users wanting unlimited media"],

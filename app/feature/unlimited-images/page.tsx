@@ -29,7 +29,7 @@ const faqSchema = {
       "name": "Do AI girlfriend apps charge per image?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most do. Candy AI, GPTGirlfriend, MyDreamCompanion, Secrets AI, and LoveScape all use token/coin/credit systems where each image costs currency. OurDream AI includes images in a monthly coin pool. Only AiAllure offers truly unlimited generation."
+        "text": "Most do. Candy AI, GPTGirlfriend, MyDreamCompanion, Secrets AI, and Lovescape all use token/coin/credit systems where each image costs currency. OurDream AI includes images in a monthly coin pool. Only AiAllure offers truly unlimited generation."
       }
     }
   ]
@@ -220,7 +220,7 @@ const TOKEN_PLATFORMS: Platform[] = [
   },
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     rank: "8",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,

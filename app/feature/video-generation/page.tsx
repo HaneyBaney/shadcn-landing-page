@@ -13,7 +13,7 @@ const faqSchema = {
       "name": "Which AI girlfriend apps have video?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "AiAllure includes short clips (~3 per batch, 8 sec) free plus Live Room video calls with webcam. OurDream AI includes video from its coin pool. Secrets AI, Candy AI, Nectar AI, GPTGirlfriend, MyDreamCompanion, and LoveScape charge credits for video."
+        "text": "AiAllure includes short clips (~3 per batch, 8 sec) free plus Live Room video calls with webcam. OurDream AI includes video from its coin pool. Secrets AI, Candy AI, Nectar AI, GPTGirlfriend, MyDreamCompanion, and Lovescape charge credits for video."
       }
     },
     {
@@ -220,7 +220,7 @@ const VIDEO_CREDITS: Platform[] = [
 const NO_VIDEO: Platform[] = [
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     rank: "8",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,

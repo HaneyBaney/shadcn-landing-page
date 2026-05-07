@@ -206,7 +206,7 @@ const CREDIT_VOICE: Platform[] = [
   },
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     rank: "8",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,

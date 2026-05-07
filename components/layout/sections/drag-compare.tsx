@@ -209,7 +209,7 @@ function ValueIndexExplainer() {
                     <p><span className="text-[#f97583]">#5</span> GPTGirlfriend — 60 (0 unlimited · 3 capped · 2 credits)</p>
                     <p><span className="text-[#f97583]">#6</span> Candy AI — 56 (1 unlimited · 1 capped · 3 credits)</p>
                     <p><span className="text-[#f97583]">#7</span> MyDreamCompanion — 51 (0 unlimited · 2 capped · 3 credits)</p>
-                    <p><span className="text-[#f97583]">#8</span> LoveScape — 50 (1 unlimited · 1 capped · 2 credits)</p>
+                    <p><span className="text-[#f97583]">#8</span> Lovescape — 50 (1 unlimited · 1 capped · 2 credits)</p>
                   </div>
                 </div>
 

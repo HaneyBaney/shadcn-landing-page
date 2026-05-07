@@ -166,7 +166,7 @@ const STANDARD_MEMORY: Platform[] = [
   },
   {
     id: "lovescape",
-    name: "LoveScape",
+    name: "Lovescape",
     rank: "6",
     rankClass: "bg-muted text-muted-foreground border border-border",
     badge: null,

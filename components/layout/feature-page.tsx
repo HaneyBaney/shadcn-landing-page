@@ -39,7 +39,7 @@ export const PLATFORM_NAMES: Record<string, string> = {
   "gptgirlfriend":    "GPTGirlfriend",
   "secrets-ai":       "Secrets AI",
   "nectar-ai":        "Nectar AI",
-  "lovescape":       "LoveScape",
+  "lovescape":       "Lovescape",
   "mydreamcompanion": "MyDreamCompanion",
 };
 
