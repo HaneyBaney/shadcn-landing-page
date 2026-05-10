@@ -380,7 +380,6 @@ export default function VideoGenerationPage() {
             <strong className="text-foreground">Live interactive video calls:</strong> AiAllure only — Live Rooms with webcam, lip sync, touch.{" "}
             <strong className="text-foreground">Clips included in plan:</strong> AiAllure (short clips free), OurDream AI (from coin pool).{" "}
             <strong className="text-foreground">Clips cost extra:</strong> Secrets AI, Candy AI, Nectar AI, GPTGirlfriend, MyDreamCompanion.{" "}
-            <strong className="text-foreground">No video at all:</strong> Secret Desires AI.
           </p>
         </div>
 

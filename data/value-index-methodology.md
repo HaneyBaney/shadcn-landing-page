@@ -136,7 +136,7 @@ We do not rely on:
 | #5 | GPTGirlfriend | 60 | 0 | 3 | 2 |
 | #6 | Candy AI | 56 | 1 | 1 | 3 |
 | #7 | MyDreamCompanion | 51 | 0 | 2 | 3 |
-| #8 | Secret Desires | 50 | 1 | 1 | 2 |
+| #8 | Lovescape | 50 | 1 | 1 | 2 |
 
 ---
 

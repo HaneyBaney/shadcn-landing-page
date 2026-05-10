@@ -263,7 +263,7 @@ const MIDRANGE_PLATFORMS: Platform[] = [
 const FAQS = [
   {
     q: "What is the cheapest AI girlfriend app in 2026?",
-    a: "Candy AI at $3.99/mo yearly is cheapest but media costs tokens. Nectar AI at $4.99/mo yearly gives you 100 images/day — best budget value. MyDreamCompanion is $5.84/mo. Secret Desires AI is $6.67/mo yearly.",
+    a: "Candy AI at $3.99/mo yearly is cheapest but media costs tokens. Nectar AI at $4.99/mo yearly gives you 100 images/day — best budget value. MyDreamCompanion is $5.84/mo. Lovescape is $7.80/mo yearly.",
     defaultOpen: true,
   },
   {
@@ -524,11 +524,11 @@ export default function CheapestPage() {
                   <td className="py-3 px-3">~5 clips</td>
                 </tr>
                 <tr className="border-b border-border/50">
-                  <td className="py-3 pr-4 font-medium text-foreground">Secret Desires</td>
-                  <td className="py-3 px-3 font-mono">$6.67</td>
-                  <td className="py-3 px-3">Hearts system</td>
-                  <td className="py-3 px-3">Hearts</td>
-                  <td className="py-3 px-3 text-red-500">None</td>
+                  <td className="py-3 pr-4 font-medium text-foreground">Lovescape</td>
+                  <td className="py-3 px-3 font-mono">$7.80</td>
+                  <td className="py-3 px-3">600 chips</td>
+                  <td className="py-3 px-3">Chips</td>
+                  <td className="py-3 px-3">Chips</td>
                 </tr>
                 <tr className="border-b border-border/50">
                   <td className="py-3 pr-4 font-medium text-foreground">GPTGirlfriend</td>

@@ -361,7 +361,7 @@ export default function VoiceCallsPage() {
           <p className="text-[15px] text-muted-foreground leading-relaxed">
             <strong className="text-foreground">Unlimited voice:</strong> AiAllure only — real-time voice with lip-synced Live Room video.{" "}
             <strong className="text-foreground">Voice included with caps:</strong> GPTGirlfriend, OurDream AI, Nectar AI.{" "}
-            <strong className="text-foreground">Voice costs credits:</strong> Candy AI, Secrets AI, MyDreamCompanion, Secret Desires AI.
+            <strong className="text-foreground">Voice costs credits:</strong> Candy AI, Secrets AI, MyDreamCompanion, Lovescape.
           </p>
         </div>
 

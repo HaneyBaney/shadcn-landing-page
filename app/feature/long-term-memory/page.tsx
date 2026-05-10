@@ -368,7 +368,7 @@ export default function LongTermMemoryPage() {
             <strong className="text-foreground">Best memory:</strong> GPTGirlfriend — deep, fully persistent across weeks.{" "}
             <strong className="text-foreground">Best categorized memory:</strong> Secrets AI — enhanced with structured recall.{" "}
             <strong className="text-foreground">Most advanced system:</strong> AiAllure — new biographical intelligence with auto-cleanup, conflict resolution, deduplication.{" "}
-            <strong className="text-foreground">Standard:</strong> Candy AI, MyDreamCompanion, Secret Desires AI.{" "}
+            <strong className="text-foreground">Standard:</strong> Candy AI, MyDreamCompanion, Lovescape.{" "}
             <strong className="text-foreground">Basic:</strong> OurDream AI, Nectar AI.
           </p>
         </div>

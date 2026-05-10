@@ -21,7 +21,7 @@ const FAQList: FAQProps[] = [
   {
     question: "Is my data private on these platforms?",
     answer:
-      "Most platforms use encrypted connections and don't show up on your bank statement by name. That said, privacy policies vary a lot. Secret Desires is the most privacy-focused one we've tested. General rule: don't use your real name, don't share personal photos, and use a separate email.",
+      "Most platforms use encrypted connections and don't show up on your bank statement by name. That said, privacy policies vary a lot. General rule: don't use your real name, don't share personal photos, and use a separate email.",
     value: "item-2",
   },
   {
